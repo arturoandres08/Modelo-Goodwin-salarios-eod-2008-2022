@@ -1,0 +1,47 @@
+---
+title: "Auditoría final antes de entrega o publicación"
+output: html_document
+date: "2025-11-11"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Checklist de Cierre y Auditoría Final
+
+## 1. Limpieza y estructura
+- [ ] Revisé que todas las carpetas estén en minúsculas y sin tildes
+- [ ] `data/` contiene solo bases limpias o brutas documentadas
+- [ ] `scripts/` contiene los códigos finales, sin duplicados antiguos
+- [ ] `auditoria_variables/` contiene únicamente resultados finales
+- [ ] `auditoria_variables/respaldos/` contiene los archivos antiguos correctamente etiquetados
+
+## 2. Trazabilidad
+- [ ] Cada resultado (tabla o gráfico) tiene referencia al script que lo generó
+- [ ] Los nombres de archivos incluyen versión o fecha
+- [ ] Los metadatos y diccionarios de variables están actualizados
+- [ ] Existe un `README.md` en la raíz del proyecto explicando:
+  - Estructura de carpetas
+  - Flujo de ejecución
+  - Dependencias (paquetes, versión de R)
+  - Autores y fecha
+
+## 3. Reproducibilidad
+- [ ] Todos los scripts se ejecutan sin errores en una instalación limpia
+- [ ] No hay rutas absolutas ni dependencias de archivos fuera del repositorio
+- [ ] Los scripts incluyen `sessionInfo()` o `sessioninfo::session_info()` al final
+- [ ] Se documentaron las fuentes de datos externas (EOD, IPC, etc.)
+
+## 4. Control de versiones
+- [ ] Todos los cambios están comiteados (`git status` muestra “working tree clean”)
+- [ ] Se creó una etiqueta final:
+  - `git tag v-final-<año>-<mes>`
+  - `git push origin --tags`
+- [ ] Se hizo respaldo ZIP del proyecto completo o se archivó en OneDrive
+
+## 5. Licencias y difusión
+- [ ] Incluí licencia de uso en el README (por ejemplo: CC-BY 4.0)
+- [ ] Declaré fuentes de datos oficiales (INE, Banco Central, etc.)
+- [ ] Verifiqué que los resultados no incluyan datos sensibles
+- [ ] Los formatos exportados son accesibles (CSV, PNG, PDF)

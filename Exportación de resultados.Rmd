@@ -1,0 +1,45 @@
+---
+title: "README_exportacion"
+output: html_document
+date: "2025-11-11"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Checklist de Exportación de Resultados
+
+## 1. Estructura de carpetas
+- [ ] Exporté las tablas en `auditoria_variables/tablas/`
+- [ ] Exporté los gráficos en `auditoria_variables/graficos/`
+- [ ] Moví las versiones viejas a `auditoria_variables/respaldos/`
+- [ ] No dejé archivos duplicados o temporales (.tmp, .bak, .old)
+
+## 2. Nombres de archivos
+- [ ] Los nombres no tienen espacios, tildes ni mayúsculas
+- [ ] El nombre describe claramente el contenido (ej: `salarios_reales_2008_2022.csv`)
+- [ ] Incluí fecha o versión en el nombre si aplica (ej: `_v1`, `_2025-11`)
+
+## 3. Formatos y contenido
+- [ ] Tablas exportadas en `.csv` con codificación UTF-8
+- [ ] Gráficos exportados en `.png` o `.pdf` (preferir PDF para vectorial)
+- [ ] Cada gráfico tiene título, ejes y etiquetas legibles
+- [ ] Las tablas tienen cabeceras completas y sin caracteres especiales
+
+## 4. Documentación
+- [ ] El script R que generó los resultados está guardado en `scripts/`
+- [ ] El script usa rutas relativas (función `here::here()` o equivalente)
+- [ ] En el script añadí comentarios que expliquen filtros, variables y pasos
+- [ ] Incluí (o actualicé) un archivo `README.md` o `README.txt` dentro de `auditoria_variables/` indicando:
+  - [ ] Qué script generó cada resultado
+  - [ ] Fecha de generación
+  - [ ] Versión del dataset o commit de Git usado
+
+## 5. Control de versiones
+- [ ] Hice `git add -A` y `git commit -m "feat: exportación resultados <fecha>"`
+- [ ] Subí al remoto con `git push`
+- [ ] Si fue una versión final o parcial importante, creé un tag:
+  - `git tag v1-resultados-salarios`
+  - `git push origin v1-resultados-salarios`
+

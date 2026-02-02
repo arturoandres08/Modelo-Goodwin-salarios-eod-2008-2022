@@ -1,0 +1,17 @@
+column,class
+version,character
+year,integer
+trimestre,integer
+n_obs,integer
+sum_w,numeric
+mean_nominal,numeric
+ex2_nominal,numeric
+var_nominal,numeric
+sd_nominal,numeric
+y_real,numeric
+mean_real,numeric
+ex2_real,numeric
+var_real,numeric
+sd_real,numeric
+cv_nominal,numeric
+cv_real,numeric

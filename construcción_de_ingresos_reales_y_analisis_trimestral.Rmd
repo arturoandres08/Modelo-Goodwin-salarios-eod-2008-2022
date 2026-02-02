@@ -1,0 +1,145 @@
+---
+title: "Construcción de Ingresos Reales y Análisis Trimestral"
+author: "Nombre del estudiante"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    number_sections: true
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+knitr::opts_chunk$set(
+echo = TRUE,
+message = FALSE,
+warning = FALSE
+)
+
+library(dplyr)
+library(ggplot2)
+library(readxl)
+library(stringr)
+library(here)
+library(scales)
+
+# Se cargan las bases ya procesadas (nominales)
+
+load(here("data", "processed", "dat_ok.RData"))
+load(here("data", "processed", "dat_w.RData"))
+
+# Vista rápida
+
+dplyr::glimpse(dat_ok)
+
+ipc_raw <- read_excel(
+here("data", "ipc", "PEM_VAR_IPC_2018_HIST.xlsx")
+)
+
+# Tabla de meses abreviados
+
+mes_map_abbr <- c(
+"ene"=1,"feb"=2,"mar"=3,"abr"=4,"may"=5,"jun"=6,
+"jul"=7,"ago"=8,"sep"=9,"oct"=10,"nov"=11,"dic"=12
+)
+
+ipc <- ipc_raw %>%
+rename(
+periodo = Periodo,
+var_mensual = `1. IPC General (empalme BCCh)`
+) %>%
+mutate(
+periodo = tolower(trimws(periodo)),
+mes_txt = str_extract(periodo, "^[a-z]+"),
+year    = as.integer(str_extract(periodo, "\d{4}")),
+month   = mes_map_abbr[mes_txt],
+var_mensual = as.numeric(var_mensual)
+) %>%
+filter(!is.na(year), !is.na(month)) %>%
+arrange(year, month) %>%
+mutate(
+fecha = as.Date(sprintf("%04d-%02d-01", year, month))
+)
+
+# Índice acumulado
+
+ipc <- ipc %>%
+mutate(
+factor       = 1 + var_mensual/100,
+indice_bruto = 100 * cumprod(factor)
+)
+
+# Reescalar para que dic-2018 = 100
+
+ipc_base <- ipc %>%
+filter(year == 2018, month == 12) %>%
+pull(indice_bruto)
+
+ipc <- ipc %>%
+mutate(IPC = indice_bruto / ipc_base * 100)
+
+dat_real <- dat_ok %>%
+left_join(ipc %>% select(year, month, IPC),
+by = c("year_final" = "year", "month" = "month")) %>%
+mutate(ing_real = ingsueld * (100 / IPC))
+
+dat_real_w <- dat_w %>%
+left_join(ipc %>% select(year, month, IPC),
+by = c("year_final" = "year", "month" = "month")) %>%
+mutate(ing_real = ingsueld_w * (100 / IPC))
+
+q_num <- function(tri) as.numeric(substr(tri, 2, 2))
+
+res_tri_real <- dat_real %>%
+group_by(year = year_final, trimestre = tri_fix) %>%
+summarise(
+n_obs = n(),
+masa_salarial_real = sum(ing_real * factor_hd),
+suma_pesos = sum(factor_hd),
+media_pond_real   = masa_salarial_real / suma_pesos,
+media_simple_real = mean(ing_real),
+.groups = "drop"
+) %>%
+mutate(t_index = year + q_num(trimestre)/10)
+
+res_tri_real_w <- dat_real_w %>%
+group_by(year = year_final, trimestre = tri_fix) %>%
+summarise(
+n_obs = n(),
+masa_salarial_real = sum(ing_real * factor_hd),
+suma_pesos = sum(factor_hd),
+media_pond_real   = masa_salarial_real / suma_pesos,
+media_simple_real = mean(ing_real),
+.groups = "drop"
+) %>%
+mutate(t_index = year + q_num(trimestre)/10)
+
+p_medias <- bind_rows(
+res_tri_real   %>% mutate(version = "sin_winsor"),
+res_tri_real_w %>% mutate(version = "winsor_p99_5")
+) %>%
+ggplot(aes(t_index, media_pond_real, color = version)) +
+geom_line(size = 1) +
+scale_y_continuous(labels = comma) +
+labs(
+title = "Ingreso real mensual: medias ponderadas trimestrales",
+x = "Año (trimestre)", y = "Pesos"
+) +
+theme_minimal(base_size = 14)
+
+p_medias
+
+p_masa <- res_tri_real_w %>%
+ggplot(aes(t_index, masa_salarial_real)) +
+geom_line(color = "#2E86AB", linewidth = 1.2) +
+scale_y_continuous(labels = comma) +
+labs(
+title = "Masa salarial real trimestral (winsor p99.5)",
+x = "Año (trimestre)", y = "Pesos"
+) +
+theme_minimal(base_size = 14)
+
+p_masa

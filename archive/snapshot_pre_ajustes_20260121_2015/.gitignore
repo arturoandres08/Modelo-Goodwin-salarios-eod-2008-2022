@@ -1,0 +1,11 @@
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+Gráficos/
+Resultados/
+.DS_Store
+Thumbs.db
+NUL
+data_raw/

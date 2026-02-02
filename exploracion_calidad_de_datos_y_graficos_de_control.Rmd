@@ -1,0 +1,212 @@
+---
+title: "Auditoría de ingresos nominales (ingsueld) y ponderadores (factor_hd), 2008–2022"
+subtitle: "Exploración, calidad de datos y gráficos de control"
+author: "Proyecto Tesis"
+date: "`r format(Sys.time(), '%Y-%m-%d %H:%M')`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    number_sections: true
+    df_print: paged
+    theme: cosmo
+---
+
+knitr::opts_chunk$set(
+echo = TRUE, message = FALSE, warning = FALSE, fig.width = 10, fig.height = 6, dpi = 120
+)
+
+pkgs <- c("tidyverse","readr","readxl","janitor","scales","lubridate","here")
+to_install <- pkgs[!sapply(pkgs, requireNamespace, quietly = TRUE)]
+if (length(to_install)) install.packages(to_install, repos = "[https://cloud.r-project.org](https://cloud.r-project.org)")
+invisible(lapply(pkgs, library, character.only = TRUE))
+
+# (opcional) helpers del repo para guardar tablas y figuras
+
+helpers <- here::here("scripts","00_helpers_paths.R")
+if (file.exists(helpers)) source(helpers)
+
+# Rutas "estándar" del repo
+
+ruta_nominal <- here::here("auditoria_variables","tablas","ingsueld_factorhd_nominal_2008_2022.xlsx")
+ruta_alt_csv <- here::here("auditoria_variables","tablas","ingsueld_factorhd_nominal_2008_2022.csv")
+
+stopifnot(file.exists(ruta_nominal) || file.exists(ruta_alt_csv))
+
+if (file.exists(ruta_nominal)) {
+dat <- readxl::read_xlsx(ruta_nominal, guess_max = 1e6) |> janitor::clean_names()
+} else {
+dat <- readr::read_csv(ruta_alt_csv, show_col_types = FALSE) |> janitor::clean_names()
+}
+
+glimpse(dat)
+
+to_trimester <- function(m) paste0("T", ceiling(as.integer(m)/3))
+q_num <- function(tri) match(tri, c("T1","T2","T3","T4"))
+
+dat <- dat |>
+mutate(
+year       = as.integer(year),
+month      = suppressWarnings(as.integer(month)),
+trimestre  = dplyr::coalesce(trimestre, to_trimester(month)),
+ingsueld   = suppressWarnings(as.numeric(ingsueld)),
+factor_hd  = suppressWarnings(as.numeric(factor_hd)),
+t_index    = year + q_num(trimestre)/10
+) |>
+filter(dplyr::between(year, 2008, 2022))
+
+summary(select(dat, ingsueld, factor_hd))
+
+p_scatter <- dat |>
+filter(!is.na(ingsueld), ingsueld > 0, !is.na(factor_hd), factor_hd > 0) |>
+ggplot(aes(x = factor_hd, y = ingsueld)) +
+geom_point(alpha = .25, color = "#C0392B") +
+scale_x_log10(labels = scales::label_number_si()) +
+scale_y_log10(labels = scales::comma) +
+labs(title = "Scatter factor_hd vs ingsueld (log-log)",
+x = "factor_hd (log)", y = "ingsueld (log)") +
+theme_minimal(base_size = 13)
+
+p_scatter
+if (exists("save_plot")) save_plot(p_scatter, "obs_scatter_factor_vs_ingsueld_log")
+
+p_hist_log <- dat |>
+filter(!is.na(ingsueld), ingsueld > 0, !is.na(factor_hd), factor_hd > 0) |>
+ggplot(aes(x = ingsueld, weight = factor_hd)) +
+geom_histogram(bins = 60, fill = "grey40", alpha = .9) +
+scale_x_log10(labels = scales::comma) +
+labs(title = "Distribución de ingsueld (escala log, ponderada)",
+x = "Ingreso (log10)", y = "Frecuencia ponderada") +
+theme_minimal(base_size = 13)
+
+p_hist_log
+if (exists("save_plot")) save_plot(p_hist_log, "obs_dist_ingsueld_hist_log_ponderado")
+
+p_dens <- dat |>
+filter(!is.na(ingsueld), ingsueld > 0, !is.na(factor_hd), factor_hd > 0) |>
+ggplot(aes(x = ingsueld, weight = factor_hd)) +
+geom_density(color = "#1F78B4", fill = "#1F78B4", alpha = .1, linewidth = .8) +
+scale_x_continuous(labels = scales::comma) +
+labs(title = "Densidad ponderada de ingsueld",
+x = "Pesos", y = "Densidad ponderada") +
+theme_minimal(base_size = 13)
+
+p_dens
+if (exists("save_plot")) save_plot(p_dens, "obs_densidad_ingsueld_ponderada")
+
+p_hist_lin <- dat |>
+filter(!is.na(ingsueld), ingsueld > 0, !is.na(factor_hd), factor_hd > 0) |>
+ggplot(aes(x = ingsueld, weight = factor_hd)) +
+geom_histogram(bins = 60, fill = "#2E86AB", alpha = .8) +
+scale_x_continuous(labels = scales::comma) +
+labs(title = "Distribución de ingsueld (ponderada por factor_hd)",
+x = "Ingreso por sueldo (pesos nominales)", y = "Frecuencia ponderada") +
+theme_minimal(base_size = 13)
+
+p_hist_lin
+if (exists("save_plot")) save_plot(p_hist_lin, "obs_dist_ingsueld_hist_ponderado")
+
+heat <- dat |>
+count(year, month, name = "n_obs") |>
+mutate(month = factor(month, levels = 1:12, labels = month.abb, ordered = TRUE))
+
+p_heat <- ggplot(heat, aes(x = month, y = factor(year), fill = n_obs)) +
+geom_tile(color = "white") +
+scale_fill_viridis_c(option = "C", labels = scales::comma) +
+labs(title = "Cobertura de observaciones por año–mes",
+x = "Mes", y = "Año", fill = "N obs") +
+theme_minimal(base_size = 13)
+
+p_heat
+if (exists("save_plot")) save_plot(p_heat, "obs_heatmap_cobertura_anio_mes")
+
+thr <- dat |>
+filter(!is.na(ingsueld), ingsueld > 0) |>
+group_by(year) |>
+summarise(p01 = quantile(ingsueld, .01, na.rm = TRUE),
+p99 = quantile(ingsueld, .99, na.rm = TRUE),
+.groups = "drop")
+
+flag <- dat |>
+left_join(thr, by = "year") |>
+mutate(flag_outlier = ingsueld < p01 | ingsueld > p99)
+
+out_anual <- flag |>
+group_by(year) |>
+summarise(
+n = n(),
+n_out = sum(flag_outlier, na.rm = TRUE),
+pct_out = 100 * n_out / n,
+.groups = "drop"
+)
+
+p_out <- ggplot(out_anual, aes(year, pct_out)) +
+geom_col(fill = "#C0392B") +
+scale_y_continuous(labels = scales::label_percent(scale = 1)) +
+labs(title = "% de observaciones fuera de [p1, p99] por año",
+x = "Año", y = "% de outliers (p1–p99)") +
+theme_minimal(base_size = 13)
+
+p_out
+if (exists("save_plot")) save_plot(p_out, "obs_porcentaje_outliers_anual")
+
+med_tris <- dat |>
+filter(!is.na(ingsueld), ingsueld > 0, !is.na(factor_hd), factor_hd > 0) |>
+group_by(year, trimestre) |>
+summarise(
+media_pond = sum(ingsueld * factor_hd, na.rm = TRUE) / sum(factor_hd, na.rm = TRUE),
+media_simple = mean(ingsueld, na.rm = TRUE),
+t_index = first(year) + match(first(trimestre), c("T1","T2","T3","T4"))/10,
+.groups = "drop"
+) |>
+pivot_longer(c(media_pond, media_simple), names_to = "tipo", values_to = "valor") |>
+mutate(tipo = recode(tipo, media_pond = "Media ponderada", media_simple = "Media simple"))
+
+p_means <- ggplot(med_tris, aes(t_index, valor, color = tipo)) +
+geom_line(linewidth = .9) +
+scale_y_continuous(labels = scales::comma) +
+scale_color_manual(values = c("Media ponderada"="#E74C3C","Media simple"="#17A589")) +
+labs(title = "Ingreso nominal: media ponderada vs media simple",
+x = "Año (trimestre)", y = "Pesos", color = NULL) +
+theme_minimal(base_size = 13) +
+theme(legend.position = "bottom")
+
+p_means
+if (exists("save_plot")) save_plot(p_means, "obs_media_pond_vs_simple")
+
+p_box <- dat |>
+filter(!is.na(ingsueld), ingsueld > 0) |>
+ggplot(aes(x = factor(year), y = ingsueld, group = year)) +
+geom_boxplot(fill = "#2E86AB", alpha = .6, outlier.alpha = .25) +
+geom_jitter(height = 0, width = .2, alpha = .05, size = .8) +
+scale_y_log10(labels = scales::comma) +
+labs(title = "Boxplots de ingsueld por año (escala log)",
+x = "Año", y = "Ingreso por sueldo (log)") +
+theme_minimal(base_size = 13)
+
+p_box
+if (exists("save_plot")) save_plot(p_box, "obs_boxplots_anuales_log")
+
+# Medias trimestrales y masa salarial por trimestre (solicitado)
+
+tab_tris <- dat |>
+filter(!is.na(ingsueld), ingsueld > 0, !is.na(factor_hd), factor_hd > 0) |>
+group_by(year, trimestre) |>
+summarise(
+masa_salarial = sum(ingsueld * factor_hd, na.rm = TRUE),
+suma_pesos    = sum(factor_hd, na.rm = TRUE),
+media_pond    = masa_salarial / suma_pesos,
+media_simple  = mean(ingsueld, na.rm = TRUE),
+n_obs         = n(),
+.groups = "drop"
+) |>
+arrange(year, trimestre)
+
+head(tab_tris)
+
+# Guardar en CSV dentro de auditoria_variables/tablas
+
+salida_csv <- here::here("auditoria_variables","tablas","medias_y_masa_trimestral_2008_2022.csv")
+readr::write_csv(tab_tris, salida_csv)
+salida_csv
+

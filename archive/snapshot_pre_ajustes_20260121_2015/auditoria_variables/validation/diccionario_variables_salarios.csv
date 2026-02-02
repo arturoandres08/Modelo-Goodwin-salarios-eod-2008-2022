@@ -1,0 +1,13 @@
+variable,nivel,definicion,formula,fuente,notas
+ipc_prom,anual,IPC promedio anual (índice 2018=100).,mean(ipc_trimestre),BCCh/INE (agregado),Promedio de los 4 trimestres.
+salario_nominal_prom,anual,Salario nominal promedio anual (pesos corrientes).,mean(wmean_adj_trim),EOD (agregado),Promedio simple de los 4 trimestres.
+salario_real_prom,anual,Salario real promedio anual (pesos 2018).,mean(salario_real_trim),EOD+IPC (agregado),Promedio simple de los 4 trimestres.
+year,anual,Año calendario.,-,EOD/Construido,2008–2022.
+deflator,trimestral,Deflactor de precios trimestral.,ipc_trimestre / 100,BCCh/INE,Factor para pasar a pesos constantes 2018.
+ipc_trimestre,trimestral,Índice de Precios al Consumidor (promedio del trimestre).,mean(IPC_mensual) → rebase 2018=100,BCCh/INE (PEM/IPC),Base dic-2018=100.
+month,trimestral,"Mes final del trimestre (3,6,9,12).",-,EOD (metadatos),Sólo ordenamiento.
+salario_real,trimestral,Salario medio ponderado real (pesos 2018).,wmean_adj / (ipc_trimestre/100),EOD + IPC,Poder adquisitivo constante.
+t_index,trimestral,Índice temporal continuo para gráficas.,year + num_trimestre/10,Construido,Útil para eje X continuo.
+trimestre,trimestral,Trimestre del año (T1–T4).,"T1=Ene–Mar, T2=Abr–Jun, T3=Jul–Sep, T4=Oct–Dic",EOD (metadatos),Derivado del mes de referencia.
+wmean_adj,trimestral,Salario medio ponderado nominal (pesos corrientes).,sum(ingsueld_i*factor_hd_i) / sum(factor_hd_i),"EOD (ingsueld, factor_hd)",Promedio ponderado por factor de expansión.
+year,trimestral,Año calendario de referencia.,-,EOD (metadatos),Entero (2008–2022).

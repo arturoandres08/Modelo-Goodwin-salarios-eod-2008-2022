@@ -1,0 +1,123 @@
+path,size_bytes,modified,md5
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_02_detected_columns_by_file.csv,  6.69K,2026-01-26T02:42:10Z,d5ea5dc2e66950ea0ea11be10d66c3df
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_05_ipc_base_check.csv, 78,2026-01-27T01:53:13Z,70d9c284d6ce1c5b272bda6d788f4857
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_05_ipc_missing_months.csv, 11,2026-01-31T22:38:56Z,a793e93d9fefde08c99f7606773a128c
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_05_ipc_months_by_year.csv,222,2026-01-31T22:38:56Z,0804db3534bf77a79bc3b0bffb55ac09
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_06_deflated_columns.csv,138,2026-01-31T22:39:00Z,e71a895eb069325749b66d797cbf591b
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_06_ipc_base_quarter_check.csv, 30,2026-01-31T01:40:40Z,07defb48864408d6cc6a8cffbc38807d
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_06_ipc_months_by_year.csv,134,2026-01-29T00:48:05Z,cf8dfff4a5cb25dd5ae9a34c75e8a5ae
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_06_ipc_quarter_coverage.csv,  5.52K,2026-01-31T22:38:58Z,c3cb34a737086bcb8970f1a04725c3d1
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_06_ipc_quarter_summary.csv,  1.62K,2026-01-30T22:50:12Z,409969f2de46027a5ff12fc37bc477f3
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_06_join_ipc_summary.csv, 82,2026-01-31T22:38:58Z,44c081510dabd649fda1e06fcfc0fa6f
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_06_missing_quarters.csv, 23,2026-01-31T01:19:56Z,a7eb3c7d30825655760614fe5f366a8e
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_06_missing_quarters_by_version.csv, 23,2026-01-29T00:48:07Z,ef8ed1b2c0c2f5fcb99028568d9df291
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_06_na_core_columns.csv, 51,2026-01-29T00:48:07Z,09bf7952fe351ceadec73e896a0f7671
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_06_real_quarterly_columns.csv,288,2026-01-29T00:48:07Z,0d84d50964f8c65a3027772e046ad1e3
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_08_unemployment_counts_by_year_month.csv,766,2026-02-01T01:01:05Z,d3deefb46b46fcc1d33e4f3d644bd7b3
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_08_unemployment_counts_by_year_quarter.csv,813,2026-02-01T01:01:05Z,2095c767ae6f59dbb681859af9aa8696
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_08_unemployment_sitocup_distribution.csv,410,2026-02-01T01:01:05Z,a3ea2e402606e7444d44c24285a86867
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_09_duplicates_year_quarter.csv, 17,2026-02-01T02:06:53Z,de4374739b6e0b633ab6d2df51e695c6
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_09_force_zero_or_na.csv, 81,2026-02-01T02:06:53Z,e4dc89f91ca2f24018aa84b2d7a0d44c
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_09_missing_year_quarter.csv, 15,2026-02-01T02:06:53Z,9c0a3faf744b27daef2ff218ff8c7589
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_09_rate_out_of_range.csv, 81,2026-02-01T02:06:53Z,e4dc89f91ca2f24018aa84b2d7a0d44c
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_09_sitocup1_counts.csv, 76,2026-02-01T02:06:50Z,8a70bada523dcde968198f8e3cfda961
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_09_status_distribution.csv,114,2026-02-01T02:06:50Z,493918805e6ac49dccd2f7ac419fd304
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_expected_vs_observed_months.csv,  4.56K,2026-01-27T00:32:20Z,4a84e61f307acec5402872754aa3a4de
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_expected_vs_observed_quarters.csv,  3.73K,2026-01-27T00:32:20Z,9796c31afd301b6719684250cdc22bb5
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_month_quarter_by_file.csv,  4.63K,2026-01-27T00:32:19Z,1504455988db228f57339b9ce7f0e9eb
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_unemployment_counts_by_year_quarter.csv,813,2026-02-01T01:01:05Z,2095c767ae6f59dbb681859af9aa8696
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audit_unemployment_sitocup_distribution.csv,410,2026-02-01T01:01:05Z,a3ea2e402606e7444d44c24285a86867
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audits_11_base_year_means_should_be_100.csv, 50,2026-02-02T03:28:34Z,03bf84a3954c7c2366b8e0095c255d72
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audits_11_month_duplicates.csv, 13,2026-02-02T03:28:34Z,1f1a46f6cacbe839a70b61c5cd57db9e
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audits_11_month_missing.csv,881,2026-02-02T03:28:34Z,491a6993eb62696192cd8c2866d693e9
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audits_11_month_na_summary.csv, 33,2026-02-02T03:28:34Z,22733e1c08593e9d1e0976b6c03a38ec
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audits_11_quarter_months_distribution.csv, 25,2026-02-02T03:28:34Z,c89c5494d4575b646843ad131a69e3dd
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/audits_11_quarters_with_lt3_months.csv,  2.94K,2026-02-02T03:28:34Z,d8d53424da868c36542c1a43be0c1e36
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_08b_01_range_and_na.csv, 77,2026-02-01T01:08:52Z,7115bb518ac1d1cb462523c86cd09b2d
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_08b_02_month_distribution.csv, 49,2026-02-01T01:08:59Z,6143295bb0179b7891b631f0dde30b5e
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_08b_02_quarter_distribution.csv, 72,2026-02-01T01:08:59Z,8636bb6be6803e64e0ded5652f995f82
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_08b_03_coverage_year_quarter.csv,813,2026-02-01T01:09:15Z,2095c767ae6f59dbb681859af9aa8696
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_08b_04_sitocup_distribution.csv,410,2026-02-01T01:09:18Z,a3ea2e402606e7444d44c24285a86867
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_08b_05_weights_summary.csv,136,2026-02-01T01:09:21Z,aae41469d8239c5385a7442fee572e3d
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_08b_06_preview_unemployment_rate.csv,  4.85K,2026-02-01T01:09:22Z,f4d4dd30a1ee4b4e2d43334802d66421
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_09b_coverage_missing_year_quarter.csv, 15,2026-02-01T02:15:11Z,9c0a3faf744b27daef2ff218ff8c7589
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_09b_force_zero_or_na.csv, 81,2026-02-01T02:15:15Z,e4dc89f91ca2f24018aa84b2d7a0d44c
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_09b_jump_summary.csv, 64,2026-02-01T02:15:19Z,9f6fb3055c7ba8a00595dce703f3ba6b
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_09b_rate_out_of_range.csv, 81,2026-02-01T02:15:14Z,e4dc89f91ca2f24018aa84b2d7a0d44c
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_09b_top10_jumps.csv,  1.1K,2026-02-01T02:15:25Z,cac6c158086f20f53d34539020230a22
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_11b_01_duplicates_year_quarter.csv, 21,2026-02-02T03:45:14Z,0cba25f6199f70c6cb7a463f6e3427b9
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_11b_02_coverage_missing_year_quarter.csv, 19,2026-02-02T03:45:17Z,9dd2a591e15884fab61502b5bfbfe9af
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_11b_03_range_and_na.csv, 76,2026-02-02T03:45:23Z,acd21f085a5b8bc070f2ad8cfb4d06dd
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_11b_04_tindex_consistency.csv, 25,2026-02-02T03:45:26Z,e794e183ac9807e8f5ca31d9277f5153
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_11b_05_base_year_means.csv, 44,2026-02-02T03:45:29Z,d823f2e0b9604c122d9d824842096cd3
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_11b_06_magnitudes.csv,144,2026-02-02T03:45:32Z,2997508311acf4c0488ca311181383aa
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_11b_07_jump_summary.csv,149,2026-02-02T03:45:34Z,45e1df5bc91b9b89af4599a450c0762e
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_11b_07b_top12_jumps_total.csv,674,2026-02-02T03:45:36Z,55516bc7044bce19eebd570d868b634c
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_11b_08_tindex_monotonicity.csv, 74,2026-02-02T03:45:40Z,9bf519b01d295895baca0a6f9113cdd2
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_12b_01_duplicates_emp.csv, 17,2026-02-02T04:06:06Z,de4374739b6e0b633ab6d2df51e695c6
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_12b_01_duplicates_prod_nonmining.csv, 17,2026-02-02T04:06:07Z,de4374739b6e0b633ab6d2df51e695c6
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_12b_01_duplicates_prod_total.csv, 17,2026-02-02T04:06:07Z,de4374739b6e0b633ab6d2df51e695c6
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_12b_02_missing_emp_year_quarter.csv, 15,2026-02-02T04:06:10Z,9c0a3faf744b27daef2ff218ff8c7589
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_12b_02_missing_prod_nonmining_year_quarter.csv, 15,2026-02-02T04:06:11Z,9c0a3faf744b27daef2ff218ff8c7589
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_12b_02_missing_prod_total_year_quarter.csv, 15,2026-02-02T04:06:11Z,9c0a3faf744b27daef2ff218ff8c7589
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_12b_03_range_and_na.csv,194,2026-02-02T04:06:14Z,9d964e9b743a6da3821f99d04d14b3af
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_12b_04_base_year_means.csv, 80,2026-02-02T04:06:18Z,0624728f949e7f03fc3eea87a48d69bf
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_12b_05_prod_identity.csv, 80,2026-02-02T04:06:21Z,dde1c1c6097d367f00497b720cebb1d4
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_12b_06_magnitudes.csv,246,2026-02-02T04:06:22Z,87944b7232bb43a1b76628b297286326
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_12b_07_tindex_consistency.csv, 49,2026-02-02T04:06:23Z,389bc3b52cd32a66e3a12656d96adab9
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_12b_08_tindex_monotonicity.csv, 74,2026-02-02T04:06:24Z,9bf519b01d295895baca0a6f9113cdd2
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_12b_09_jump_summary.csv,199,2026-02-02T04:06:25Z,9ab811799d34f6d2912db1337e1f3a23
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_14b_01_duplicates_version_tindex.csv, 18,2026-02-02T04:51:58Z,69c77f57b34edf9d482ca1c888b8f809
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_14b_02_coverage_by_version.csv,103,2026-02-02T04:52:00Z,7d4b3e2f304655f9cc8ba47fa3097ae1
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_14b_03_na_rates.csv, 67,2026-02-02T04:52:01Z,0c9bad9a28d9b5b7fec50de5afcc4c7e
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_14b_04_cv_sanity.csv,256,2026-02-02T04:52:02Z,a711c3f1189cd4454e189b46a690ce7f
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/check_14b_05_top12_lowest_adjusted_mean.csv,  1.25K,2026-02-02T04:52:04Z,a9b761dad9d13a9eebc340ab396e3a0e
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/auditoria_variables/validation/validation_winsor_threshold_by_year.csv,585,2026-01-27T00:47:47Z,2cc57671faf9d99e7ece3e3715f393b4
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/data/processed/employment_quarterly_2008_2022_base2018_100.rds,  1.22K,2026-02-02T04:05:47Z,ba559c9d57093e70ab5d58ecb20644fa
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/data/processed/imacec_quarterly_2008_2022_base2018_100.rds,  1.83K,2026-02-02T03:28:35Z,38f98b61beb2dc0ba418108b82e5ae03
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/data/processed/ipc_monthly_base2018_100.rds, 10.57K,2026-01-31T22:38:56Z,00de68a90992703d018f4c11a620eec0
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/data/processed/nominal_quarterly_2008_2022.rds,  2.93K,2026-01-29T22:23:42Z,917b31e3484545661f8e934396d9815b
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/data/processed/productivity_quarterly_nonmining_2008_2022_base2018_100.rds,  2.27K,2026-02-02T04:05:47Z,dbe083e6011884549726a599f21f5e1c
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/data/processed/productivity_quarterly_total_2008_2022_base2018_100.rds,  2.25K,2026-02-02T04:05:47Z,330161d15db6fd1a0e19b7e83c06e126
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/data/processed/real_quarterly_2008_2022.rds,  9.14K,2026-01-31T22:39:00Z,9b5f28c3dc3fa5ee44547e0f0065972d
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/data/processed/unemployment_quarterly_2008_2022.rds,  2.11K,2026-02-01T02:06:53Z,c70e95745cc62b93b49192606153e342
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/data/processed/wages_real_quarterly_sinwinsor_cv_2008_2022.rds,  5.88K,2026-02-02T04:50:46Z,0506c3424abc29672ef984d070aa4738
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/data/processed/wages_real_quarterly_winsor_cv_2008_2022.rds,  6.42K,2026-02-02T04:50:46Z,02aa1094d3072d504f6c44286ffacf9f
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/figures/cv_adjusted_mean_comparison_real_quarterly_2008_2022.pdf,  5.46K,2026-02-02T05:16:35Z,f85fa323f3c4a7d278e5bd3e7807c9e4
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/figures/cv_adjusted_mean_comparison_real_quarterly_2008_2022.png,234.62K,2026-02-02T05:16:38Z,f59da2732cf00fac1f5063f498de8071
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/figures/cv_real_quarterly_comparison_2008_2022.pdf,  5.44K,2026-02-02T05:16:39Z,f17bcb9d7a2a3ab818f2f3c31a9d13fe
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/figures/cv_real_quarterly_comparison_2008_2022.png,223.21K,2026-02-02T05:16:40Z,2020c88b25a53e536b3293b8cc0e2293
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/figures/imacec_total_vs_employment_base2018_100.pdf,  5.31K,2026-02-02T04:41:08Z,e39786b524b0e9d4fca5272850169721
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/figures/imacec_total_vs_employment_base2018_100.png,210.82K,2026-02-02T04:41:09Z,0c16fa5c16eac4bb0638bab09abee788
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/figures/mean_real_vs_cv_adjusted_by_version_2008_2022.pdf,  6.23K,2026-02-02T05:16:41Z,deeca9333714a1bc771bfea6740e976a
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/figures/mean_real_vs_cv_adjusted_by_version_2008_2022.png,176.47K,2026-02-02T05:16:42Z,e4bea1a7ee1a86eb9d674d6ce57d0ceb
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/figures/nominal_media_pond_trimestral.pdf,  5.15K,2026-01-27T03:13:34Z,c258c044aa139f4ce2a9eef04d019d16
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/figures/nominal_media_pond_trimestral.png,147.19K,2026-01-27T03:13:32Z,6e83f11c0cd302cc09044db6967ec278
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/figures/productivity_nonmining_base2018_100.pdf,  4.83K,2026-02-02T04:41:05Z,21085dac6f941b61d3a2de88905310f7
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/figures/productivity_nonmining_base2018_100.png,149.49K,2026-02-02T04:41:05Z,52ac5df56dad4ffff853e4b2e16a3e66
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/figures/productivity_total_base2018_100.pdf,  4.86K,2026-02-02T04:41:01Z,5263ae6e78e269ccca4673940acc65ff
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/figures/productivity_total_base2018_100.png,153.81K,2026-02-02T04:41:04Z,32ca3a1634fa089ba8f8eb318da95f12
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/figures/productivity_total_vs_nonmining_base2018_100.pdf,  5.28K,2026-02-02T04:41:06Z,4c0dcbe2ed6454e3a6931a0644cfda84
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/figures/productivity_total_vs_nonmining_base2018_100.png,192.39K,2026-02-02T04:41:07Z,cc0db53dbead4acd15321056170712a5
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/figures/real_media_pond_trimestral.pdf,  5.13K,2026-01-27T03:13:35Z,51f16238ffe837bba97677e5cc8de2e2
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/figures/real_media_pond_trimestral.png,177.22K,2026-01-27T03:13:34Z,07d6050d0c343bf09a4ca5ec7c9a92a7
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/figures/unemployment_rate_quarterly_2008_2022.pdf,  4.73K,2026-02-01T17:26:12Z,1ff35dec1bd1826ab66f8e8afe1baf25
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/figures/unemployment_rate_quarterly_2008_2022.png,135.31K,2026-02-01T17:26:11Z,cac18bc9bcb88702c3af118aeefc539a
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/figures/wages_real_mean_with_sd.pdf,  6.85K,2026-02-01T00:29:28Z,e8bfb9052464efc3efb0ab05794ecb34
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/figures/wages_real_mean_with_sd.png,174.89K,2026-02-01T00:29:27Z,66184a2f3b57da04eef70ba3b0f1290f
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/figures/wages_real_sd.pdf,  5.39K,2026-02-01T00:29:29Z,0720c4e4f8c538654e8d9df1da6728c4
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/figures/wages_real_sd.png,224.71K,2026-02-01T00:29:28Z,e79276c58cb0192e89198b7b3502e620
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/tables/cv_adjusted_mean_real_quarterly_all_versions_2008_2022.csv, 41.16K,2026-02-02T04:50:47Z,268e294f69caf60c712361ebe65995eb
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/tables/cv_adjusted_mean_real_quarterly_sinwinsor_2008_2022.csv, 20.05K,2026-02-02T04:50:47Z,cc103973f563d6289ee69a3db8f88d7d
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/tables/cv_adjusted_mean_real_quarterly_winsor_2008_2022.csv, 21.42K,2026-02-02T04:50:47Z,5843acc385fa937ace9fa5ecf414b8c1
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/tables/employment_quarterly_base2018_100.csv,  3.01K,2026-02-02T04:05:48Z,ed4127a211e23461956093e86bad4f53
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/tables/eod_extract_individual_raw_like.csv, 74.45M,2026-01-26T02:42:11Z,2eb4f3f79c70ad9b3afcc6ff79a3da57
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/tables/eod_unemployment_individual_2008_2022_extract_like.csv, 38.93M,2026-02-01T01:01:07Z,111640ddef85c82c342760180d3a47c0
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/tables/imacec_quarterly_indices_base2018_100.csv,  3.13K,2026-02-02T03:28:35Z,fa718b0f1e30ff19eecc40206c1cccb8
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/tables/ipc_monthly_base2018_100.csv, 38.1K,2026-01-31T22:38:56Z,c64a81d9e48141a254e780316b4bbcde
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/tables/nominal_quarterly_2008_2022.csv, 12.72K,2026-01-29T22:23:43Z,c9c24d5613f8f471a0a3e8e8afd8087c
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/tables/pre_ajustes_20260125_2015/eod_extract_individual_raw_like.csv, 74.45M,2026-01-22T18:44:05Z,2eb4f3f79c70ad9b3afcc6ff79a3da57
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/tables/productivity_nonmining_quarterly_base2018_100.csv,  5.19K,2026-02-02T04:05:48Z,c2887ec23f9c0e84e5ed2e2149ea8f84
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/tables/productivity_total_quarterly_base2018_100.csv,  5.17K,2026-02-02T04:05:48Z,a1fade5f135644a952aae8bb8c66bbd8
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/tables/real_quarterly_2008_2022.csv, 36.83K,2026-01-31T22:39:00Z,cfa00fe498d4b1980a9a524f08004110
+F:/OneDrive - usach.cl/Documents/USACH/10mo semestre/Tesis/Trabajo_R_Tesis/tables/unemployment_quarterly_2008_2022.csv,  5.68K,2026-02-01T02:06:53Z,9b14766e61994b4d00592849b73c8540

@@ -1,0 +1,11 @@
+* text=auto
+
+*.R     text eol=lf
+*.Rmd   text eol=lf
+*.csv   text eol=lf
+*.md    text eol=lf
+# Binarios (no tocar line endings)
+*.png   binary
+*.sav   binary
+*.xlsx  binary
+*.rds   binary

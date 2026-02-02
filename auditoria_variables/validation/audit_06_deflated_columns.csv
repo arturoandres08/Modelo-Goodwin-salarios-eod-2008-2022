@@ -1,0 +1,3 @@
+version,n,na_sd_real,na_var_real,na_cv_real,na_mean_real,na_ipc_q_avg,na_deflator_q
+sin_winsor,60,0,0,0,0,0,0
+winsor_p99_5,60,0,0,0,0,0,0

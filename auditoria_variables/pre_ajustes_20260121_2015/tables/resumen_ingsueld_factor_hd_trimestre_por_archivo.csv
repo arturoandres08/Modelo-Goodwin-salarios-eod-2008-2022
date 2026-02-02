@@ -1,0 +1,104 @@
+year,trimestre,month,file,ok,motivo,n_total,n_usadas,masa_salarial,suma_pesos,salario_promedio,wage_var,weight_var,mult_unidades
+1997,T1,3,marzo1997.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,100
+1997,T2,6,junio1997.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,100
+1997,T3,9,septiembre1997.sav,FALSE,Faltan: ingsueld ,11273,0,NA,NA,NA,NA,NA,NA
+1997,T4,12,diciembre1997.sav,FALSE,Faltan: ingsueld ,11288,0,NA,NA,NA,NA,NA,NA
+1998,T1,3,marzo1998.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,100
+1998,T2,6,junio1998.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,100
+1998,T3,9,septiembre1998.sav,FALSE,Faltan: ingsueld ,11385,0,NA,NA,NA,NA,NA,NA
+1998,T4,12,diciembre1998.sav,FALSE,Faltan: ingsueld ,11480,0,NA,NA,NA,NA,NA,NA
+1999,T1,3,marzo1999.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+1999,T2,6,junio1999.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+1999,T3,9,septiembre1999.sav,FALSE,Faltan: ingsueld ,11378,0,NA,NA,NA,NA,NA,NA
+1999,T4,12,diciembre1999.sav,FALSE,Faltan: ingsueld ,11412,0,NA,NA,NA,NA,NA,NA
+2000,T1,3,marzo2000.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2000,T2,6,junio2000.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2000,T3,9,septiembre2000.sav,FALSE,Faltan: ingsueld ,11427,0,NA,NA,NA,NA,NA,NA
+2000,T4,12,diciembre2000.sav,FALSE,Faltan: ingsueld ,11425,0,NA,NA,NA,NA,NA,NA
+2001,T1,3,marzo2001.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2001,T2,6,junio2001.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2001,T3,9,septiembre2001.sav,FALSE,Faltan: ingsueld ,11269,0,NA,NA,NA,NA,NA,NA
+2001,T4,12,diciembre2001.sav,FALSE,Faltan: ingsueld ,11425,0,NA,NA,NA,NA,NA,NA
+2002,T1,3,marzo2002.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2002,T2,6,junio2002.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2002,T3,9,septiembre2002.sav,FALSE,Faltan: ingsueld ,11484,0,NA,NA,NA,NA,NA,NA
+2002,T4,12,diciembre2002.sav,FALSE,Faltan: ingsueld ,11283,0,NA,NA,NA,NA,NA,NA
+2003,T1,3,marzo2003.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2003,T2,6,junio2003.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2003,T3,9,septiembre2003.sav,FALSE,Faltan: ingsueld ,11305,0,NA,NA,NA,NA,NA,NA
+2003,T4,12,diciembre2003.sav,FALSE,Faltan: ingsueld ,11169,0,NA,NA,NA,NA,NA,NA
+2004,T1,3,marzo2004.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2004,T2,6,junio2004.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2004,T3,9,septiembre2004.sav,FALSE,Faltan: ingsueld ,11132,0,NA,NA,NA,NA,NA,NA
+2004,T4,12,diciembre2004.sav,FALSE,Faltan: ingsueld ,11340,0,NA,NA,NA,NA,NA,NA
+2005,T1,3,marzo2005.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2005,T2,6,junio2005.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2005,T3,9,septiembre2005.sav,FALSE,Faltan: ingsueld ,10960,0,NA,NA,NA,NA,NA,NA
+2005,T4,12,diciembre2005.sav,FALSE,Faltan: ingsueld ,11071,0,NA,NA,NA,NA,NA,NA
+2006,T1,3,marzo2006.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2006,T2,6,junio2006.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2006,T3,9,septiembre2006.sav,FALSE,Faltan: ingsueld ,11049,0,NA,NA,NA,NA,NA,NA
+2006,T4,12,diciembre2006.sav,FALSE,Faltan: ingsueld ,11091,0,NA,NA,NA,NA,NA,NA
+2007,T1,3,marzo2007.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2007,T2,6,junio2007.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2007,T3,9,septiembre2007.sav,FALSE,Faltan: ingsueld ,11084,0,NA,NA,NA,NA,NA,NA
+2007,T4,12,diciembre2007.sav,FALSE,Faltan: ingsueld ,10871,0,NA,NA,NA,NA,NA,NA
+2008,T1,3,marzo2008.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2008,T2,6,junio2008.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2008,T3,9,septiembre2008.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2008,T4,12,diciembre2008.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2009,T1,3,marzo2009.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2009,T2,6,junio2009.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2009,T3,9,septiembre2009.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2009,T4,12,diciembre2009.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2010,T1,3,marzo2010.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2010,T2,6,junio2010.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2010,T3,9,septiembre2010.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2010,T4,12,diciembre2010.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2011,T1,3,marzo2011.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2011,T2,6,junio2011.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2011,T3,9,septiembre2011.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2011,T4,12,diciembre2011.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2012,T1,3,marzo2012.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2012,T2,6,junio2012.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2012,T3,9,septiembre2012.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2012,T4,12,diciembre2012.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2013,T1,3,marzo2013.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2013,T2,6,junio2013.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2013,T3,9,septiembre2013.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2013,T4,12,diciembre2013.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2014,T1,3,marzo2014.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2014,T2,6,junio2014.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2014,T3,9,septiembre2014.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2014,T4,12,Diciembre2014.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2015,T1,3,marzo2015.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2015,T2,6,Junio2015.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2015,T3,9,Septiembre2015.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2015,T4,12,Diciembre2015.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2016,T1,3,Marzo2016.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2016,T2,6,Junio2016.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2016,T3,9,Septiembre2016.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2017,T1,3,Marzo2017.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2017,T2,6,Junio2017.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2017,T3,9,Septiembre2017.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2017,T4,12,Diciembre2017.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2018,T1,3,Marzo2018.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2018,T2,6,Junio2018.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2018,T3,9,Septiembre2018.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2018,T4,12,Diciembre2018.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2019,T1,3,Marzo2019.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2019,T2,6,Junio2019.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2019,T3,9,Septiembre2019.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2019,T4,12,Diciembre2019.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2020,T1,3,Marzo2020.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2020,T2,6,Junio2020.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2020,T3,9,Base_web_Septiembre2020.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2020,T4,12,Base_web_Diciembre2020.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2021,T1,3,Base_web_Marzo2021.dta,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2021,T2,6,Base_web_Junio2021s.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2021,T3,9,Base_web_Septiembre2021.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2021,T4,12,Base_web_Diciembre2021s.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2022,T1,3,Base_web_Marzo2022.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2022,T2,6,Junio2022.dta,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2022,T3,9,Base_web_Septiembre2022.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1
+2022,T4,12,Diciembre2022.sav,FALSE,Fallo en lectura/procesamiento en resumir_archivo(),NA,0,NA,NA,NA,NA,NA,1

@@ -1,0 +1,23 @@
+year,month,trimestre,file,ok,motivo,wage_var,weight_var,n_total,n_pos,na_rate,mean_raw,mean_adj,wmean_adj,p10,p50,p90,flag,t_index,wmean_lag,ratio
+1997,9,T3,septiembre1997.sav,FALSE,Variables no detectadas,NA,factor_hd,11273,0,NA,NA,NA,NA,NA,NA,NA,missing_or_low_n,NA,NA,NA
+1997,12,T4,diciembre1997.sav,FALSE,Variables no detectadas,NA,factor_hd,11288,0,NA,NA,NA,NA,NA,NA,NA,missing_or_low_n,NA,NA,NA
+1998,9,T3,septiembre1998.sav,FALSE,Variables no detectadas,NA,factor_hd,11385,0,NA,NA,NA,NA,NA,NA,NA,missing_or_low_n,NA,NA,NA
+1998,12,T4,diciembre1998.sav,FALSE,Variables no detectadas,NA,factor_hd,11480,0,NA,NA,NA,NA,NA,NA,NA,missing_or_low_n,NA,NA,NA
+1999,9,T3,septiembre1999.sav,FALSE,Variables no detectadas,NA,factor_hd,11378,0,NA,NA,NA,NA,NA,NA,NA,missing_or_low_n,NA,NA,NA
+1999,12,T4,diciembre1999.sav,FALSE,Variables no detectadas,NA,factor_hd,11412,0,NA,NA,NA,NA,NA,NA,NA,missing_or_low_n,NA,NA,NA
+2000,9,T3,septiembre2000.sav,FALSE,Variables no detectadas,NA,factor_hd,11427,0,NA,NA,NA,NA,NA,NA,NA,missing_or_low_n,NA,NA,NA
+2000,12,T4,diciembre2000.sav,FALSE,Variables no detectadas,NA,factor_hd,11425,0,NA,NA,NA,NA,NA,NA,NA,missing_or_low_n,NA,NA,NA
+2001,9,T3,septiembre2001.sav,FALSE,Variables no detectadas,NA,factor_hd,11269,0,NA,NA,NA,NA,NA,NA,NA,missing_or_low_n,NA,NA,NA
+2001,12,T4,diciembre2001.sav,FALSE,Variables no detectadas,NA,factor_hd,11425,0,NA,NA,NA,NA,NA,NA,NA,missing_or_low_n,NA,NA,NA
+2002,9,T3,septiembre2002.sav,FALSE,Variables no detectadas,NA,factor_hd,11484,0,NA,NA,NA,NA,NA,NA,NA,missing_or_low_n,NA,NA,NA
+2002,12,T4,diciembre2002.sav,FALSE,Variables no detectadas,NA,factor_hd,11283,0,NA,NA,NA,NA,NA,NA,NA,missing_or_low_n,NA,NA,NA
+2003,9,T3,septiembre2003.sav,FALSE,Variables no detectadas,NA,factor_hd,11305,0,NA,NA,NA,NA,NA,NA,NA,missing_or_low_n,NA,NA,NA
+2003,12,T4,diciembre2003.sav,FALSE,Variables no detectadas,NA,factor_hd,11169,0,NA,NA,NA,NA,NA,NA,NA,missing_or_low_n,NA,NA,NA
+2004,9,T3,septiembre2004.sav,FALSE,Variables no detectadas,NA,factor_hd,11132,0,NA,NA,NA,NA,NA,NA,NA,missing_or_low_n,NA,NA,NA
+2004,12,T4,diciembre2004.sav,FALSE,Variables no detectadas,NA,factor_hd,11340,0,NA,NA,NA,NA,NA,NA,NA,missing_or_low_n,NA,NA,NA
+2005,9,T3,septiembre2005.sav,FALSE,Variables no detectadas,NA,factor_hd,10960,0,NA,NA,NA,NA,NA,NA,NA,missing_or_low_n,NA,NA,NA
+2005,12,T4,diciembre2005.sav,FALSE,Variables no detectadas,NA,factor_hd,11071,0,NA,NA,NA,NA,NA,NA,NA,missing_or_low_n,NA,NA,NA
+2006,9,T3,septiembre2006.sav,FALSE,Variables no detectadas,NA,factor_hd,11049,0,NA,NA,NA,NA,NA,NA,NA,missing_or_low_n,NA,NA,NA
+2006,12,T4,diciembre2006.sav,FALSE,Variables no detectadas,NA,factor_hd,11091,0,NA,NA,NA,NA,NA,NA,NA,missing_or_low_n,NA,NA,NA
+2007,9,T3,septiembre2007.sav,FALSE,Variables no detectadas,NA,factor_hd,11084,0,NA,NA,NA,NA,NA,NA,NA,missing_or_low_n,NA,NA,NA
+2007,12,T4,diciembre2007.sav,FALSE,Variables no detectadas,NA,factor_hd,10871,0,NA,NA,NA,NA,NA,NA,NA,missing_or_low_n,NA,NA,NA
