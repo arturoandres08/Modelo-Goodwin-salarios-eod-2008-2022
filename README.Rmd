@@ -1,0 +1,59 @@
+---
+title: "README"
+author: "Arturo"
+date: "2026-02-19"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Modelo Goodwin – Salarios EOD (Chile, 2008–2022)
+
+Repositorio de investigación para construir series trimestrales (2008–2022) y sus figuras/tablas asociadas, con foco en:
+- **IMACEC** (total y no minero) en índice base **2018 = 100**
+- **Empleo (ocupados)** trimestral e índice base **2018 = 100**
+- **Productividad laboral** como razón de índices (IMACEC/Empleo) y rebase **2018 = 100**
+- **Salarios reales** (EOD) y construcción de **media ajustada por CV** (comparando sin winsor vs winsor p99.5)
+
+El proyecto está organizado para maximizar **reproducibilidad**, trazabilidad de outputs y consistencia de llaves temporales a frecuencia trimestral.
+
+---
+
+## Estructura del proyecto (alto nivel)
+
+- `codes/`  
+  Scripts numerados (pipeline) y utilidades.  
+  **Entrada obligatoria:** `codes/00_setup.R` (define `CFG`, paths, helpers como `load_rds()`, `save_rds()`, `save_table_csv()`, `save_plot_file()`, etc.).
+
+- `data_raw/`  
+  Datos fuente (raw). **Se mantienen en el repositorio** por decisión de trabajo (supervisión y trazabilidad).
+
+- `data/`  
+  Datos intermedios/estandarizados (por ejemplo RDS ya armonizados por trimestre según `CFG$paths`).
+
+- `outputs/` (o carpetas equivalentes definidas en `CFG`)  
+  Tablas CSV y figuras (PDF/PNG) generadas por el pipeline.
+
+> Los nombres exactos de carpetas de output y rutas se controlan mediante `CFG` en `codes/00_setup.R`.
+
+---
+
+## Requisitos
+
+- R (recomendado: versión similar a la usada durante el desarrollo)
+- Paquetes típicos: `tidyverse`, `lubridate`, `here`, `readr`, `fs`, `scales`, `ggplot2`, etc.
+- Sistema operativo: probado en Windows + RStudio.
+
+---
+
+## Cómo correr el proyecto (reproducibilidad)
+
+### Opción 1 — correr todo el pipeline
+1. Abrir el proyecto en RStudio (idealmente desde el `.Rproj`).
+2. Ejecutar:
+
+```r
+source(here::here("codes", "00_setup.R"))
+source(here::here("codes", "01_run_all.R"))
