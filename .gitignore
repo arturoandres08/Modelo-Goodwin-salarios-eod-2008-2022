@@ -1,11 +1,37 @@
+# ---- R / RStudio ----
 .Rproj.user/
 .Rhistory
 .RData
 .Ruserdata
 *.Rproj
-Gráficos/
-Resultados/
+
+# ---- OS ----
 .DS_Store
 Thumbs.db
-NUL
-data_raw/
+
+# ---- Logs / cache / temporales ----
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+cache/
+tmp/
+
+# ---- Renviron / secretos (NO subir) ----
+.Renviron
+.Renviron.*
+*.key
+*.pem
+*.secrets.*
+*_token*
+*credentials*
+
+# ---- (Opcional) si usas Quarto/LaTeX ----
+*_cache/
+*_files/
+.venv/
+venv/
+
+# Nota: NO ignoramos data/raw ni tablas grandes,
+# porque decidiste mantenerlas versionadas.
