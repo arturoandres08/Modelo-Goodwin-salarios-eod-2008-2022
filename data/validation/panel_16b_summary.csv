@@ -1,0 +1,2 @@
+n_rows,n_expected,n_dup_quarters,n_missing_quarters,n_extra_quarters,na_g_imacec,na_inflation,na_g_salario_real,na_u
+60,60,0,0,0,1,1,1,0

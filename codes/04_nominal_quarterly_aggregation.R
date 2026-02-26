@@ -4,7 +4,7 @@ source(here::here("codes","00_setup.R"))
 ing0 <- load_rds(CFG$paths$eod_calendar_normalized)
 
 # ------------------------------------------------------------
-# 0) Helper: cuantil ponderado (opcional)
+# 0) Helper: cuantil ponderado (sirve para p99.5 y mediana ponderada)
 # ------------------------------------------------------------
 wtd_quantile <- function(x, w, probs = 0.995) {
   ok <- !is.na(x) & !is.na(w) & w > 0
@@ -65,15 +65,26 @@ dat_w <- dat_ok %>%
 
 # ------------------------------------------------------------
 # 3) Resúmenes trimestrales NOMINALES
+#    - mantenemos medias (simple y ponderada)
+#    - agregamos medianas (simple y ponderada)
 # ------------------------------------------------------------
+
 res_nom_w <- dat_w %>%
   dplyr::group_by(year = year_final, trimestre = tri_fix) %>%
   dplyr::summarise(
     n_obs         = dplyr::n(),
     masa_salarial = sum(ingsueld_w * factor_hd, na.rm = TRUE),
     suma_pesos    = sum(factor_hd, na.rm = TRUE),
+    
+    # medias
     media_pond    = masa_salarial / suma_pesos,
     media_simple  = mean(ingsueld_w, na.rm = TRUE),
+    
+    # ✅ medianas
+    mediana_pond   = wtd_quantile(ingsueld_w, factor_hd, probs = 0.5),
+    mediana_simple = stats::median(ingsueld_w, na.rm = TRUE),
+    
+    # umbral winsor (p99.5 por año)
     p99_5         = dplyr::first(p995),
     .groups = "drop"
   ) %>%
@@ -89,8 +100,15 @@ res_nom_now <- dat_ok %>%
     n_obs         = dplyr::n(),
     masa_salarial = sum(ingsueld * factor_hd, na.rm = TRUE),
     suma_pesos    = sum(factor_hd, na.rm = TRUE),
+    
+    # medias
     media_pond    = masa_salarial / suma_pesos,
     media_simple  = mean(ingsueld, na.rm = TRUE),
+    
+    # ✅ medianas
+    mediana_pond   = wtd_quantile(ingsueld, factor_hd, probs = 0.5),
+    mediana_simple = stats::median(ingsueld, na.rm = TRUE),
+    
     .groups = "drop"
   ) %>%
   dplyr::mutate(
@@ -111,4 +129,4 @@ save_rds(res_nom, CFG$paths$nominal_quarterly)
 
 save_table_csv(res_nom, "nominal_quarterly_2008_2022", dir = CFG$dirs$out_tables)
 
-message("✔ 04 listo: nominal trimestral (processed) + bases individuales (interim) + validación winsor (data/validation)")
+message("✔ 04 listo: nominal trimestral (media + mediana) + bases individuales + validación winsor")

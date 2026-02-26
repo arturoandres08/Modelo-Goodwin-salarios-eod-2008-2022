@@ -4,8 +4,6 @@
 # - Insumos:
 #   * data/processed/nominal_quarterly_2008_2022.rds   (desde 04)
 #   * data/processed/ipc_monthly_base2018_100.rds      (desde 05)
-#   * (opcional pero recomendado) data/interim/eod_individual_2008_2022_clean.rds
-#                                data/interim/eod_individual_2008_2022_winsor.rds
 # - Salidas:
 #   * data/processed/real_quarterly_2008_2022.rds
 #   * tables/real_quarterly_2008_2022.csv
@@ -26,7 +24,6 @@ message("== 06) Salarios reales trimestrales ==")
 # ===============================================================
 
 norm_trim_int <- function(tri_raw, month = NA_integer_) {
-  # Devuelve trimestre como entero 1..4
   out <- suppressWarnings(as.integer(tri_raw))
   if (!all(is.na(out))) return(out)
   
@@ -95,7 +92,6 @@ dups <- nom %>%
 
 if (nrow(dups) > 0) {
   save_validation_both(dups, "audit_06_duplicates_in_nominal.csv")
-  # regla simple: quedarse con la primera fila por llave
   nom <- nom %>%
     dplyr::arrange(dplyr::across(dplyr::all_of(keys))) %>%
     dplyr::group_by(dplyr::across(dplyr::all_of(keys))) %>%
@@ -111,7 +107,6 @@ stopifnot(file.exists(CFGpaths$ipc_monthly))
 ipc_m <- load_rds(CFGpaths$ipc_monthly) %>%
   tibble::as_tibble()
 
-# Detecta columna IPC (según 05)
 ipc_col <- pick_first_existing(
   names(ipc_m),
   c("ipc_base2018_100","ipc","IPC","ipc_2018_100","indice_ipc","indice")
@@ -120,7 +115,6 @@ if (is.na(ipc_col)) {
   stop("No pude detectar la columna de IPC en ipc_monthly. Esperaba algo como 'ipc_base2018_100'.")
 }
 
-# year/month deben existir o ser derivables desde 'periodo'
 if (!all(c("year","month") %in% names(ipc_m))) {
   if ("periodo" %in% names(ipc_m)) {
     ipc_m <- ipc_m %>%
@@ -144,7 +138,6 @@ ipc_m <- ipc_m %>%
   dplyr::filter(!is.na(year), !is.na(month), !is.na(trimestre)) %>%
   dplyr::arrange(year, month)
 
-# Cobertura IPC por trimestre (audit)
 ipc_cov <- ipc_m %>%
   dplyr::group_by(year, trimestre) %>%
   dplyr::summarise(
@@ -158,7 +151,6 @@ ipc_cov <- ipc_m %>%
 
 save_validation_both(ipc_cov, "audit_06_ipc_quarter_coverage.csv")
 
-# IPC trimestral promedio (simple)
 ipc_q <- ipc_m %>%
   dplyr::group_by(year, trimestre) %>%
   dplyr::summarise(
@@ -167,7 +159,6 @@ ipc_q <- ipc_m %>%
   ) %>%
   dplyr::mutate(deflator_q = ipc_q_avg / 100)
 
-# Base esperada (informativo)
 base_row <- ipc_q %>%
   dplyr::filter(year == CFGparams$base_year, trimestre == 4) %>%
   dplyr::slice(1)
@@ -188,7 +179,6 @@ rea <- nom %>%
   ) %>%
   dplyr::left_join(ipc_q, by = c("year","trimestre"))
 
-# Checks duros: join no puede dejar IPC/deflator NA dentro del rango
 audit_join <- rea %>%
   dplyr::summarise(
     n = dplyr::n(),
@@ -211,28 +201,34 @@ if (audit_join$n_na_def > 0) {
 
 # ===============================================================
 # 4) Variables reales (desde agregados nominales + deflator_q)
-#    + compatibilidad con 07 y checks
+#    ✅ ahora incluye medias + medianas
 # ===============================================================
 
-# Asegura que existan estas columnas nominales (si no, quedan NA)
-for (cc in c("media_pond","media_simple","p99_5","masa_salarial",
+for (cc in c("media_pond","media_simple","mediana_pond","mediana_simple","p99_5","masa_salarial",
              "sd_nominal","var_nominal","cv_nominal","n_obs","suma_pesos","t_index")) {
   if (!cc %in% names(rea)) rea[[cc]] <- NA_real_
 }
 
 rea <- rea %>%
   dplyr::mutate(
-    # índices/llaves
     trimestre = as.integer(trimestre),
     t_index = dplyr::coalesce(as.numeric(t_index), as.numeric(year) + as.numeric(trimestre)/10),
     
-    # real (deflactado base 2018=100)
+    # medias reales
     media_pond_real   = safe_div(as.numeric(media_pond),   deflator_q),
     media_simple_real = safe_div(as.numeric(media_simple), deflator_q),
     
-    # nombres esperados por otros scripts/checks
+    # ✅ medianas reales
+    mediana_pond_real   = safe_div(as.numeric(mediana_pond),   deflator_q),
+    mediana_simple_real = safe_div(as.numeric(mediana_simple), deflator_q),
+    
+    # compatibilidad: baseline (media ponderada)
     mean_nominal = as.numeric(media_pond),
     mean_real    = media_pond_real,
+    
+    # ✅ compatibilidad: baseline mediana (mediana ponderada)
+    median_nominal = as.numeric(mediana_pond),
+    median_real    = mediana_pond_real,
     
     masa_salarial_real = safe_div(as.numeric(masa_salarial), deflator_q),
     p99_5_real         = safe_div(as.numeric(p99_5), deflator_q)
@@ -332,7 +328,6 @@ disp_real <- dplyr::bind_rows(disp_list) %>%
     trimestre = as.integer(trimestre)
   )
 
-# Join de dispersión al agregado
 if (nrow(disp_real) > 0) {
   rea <- rea %>%
     dplyr::left_join(disp_real, by = c("version","year","trimestre"))
@@ -342,12 +337,10 @@ if (nrow(disp_real) > 0) {
   rea$cv_real_new  <- NA_real_
 }
 
-# --- Blindaje: si no existen columnas “viejas”, créalas como NA ---
 for (cc in c("sd_real","var_real","cv_real")) {
   if (!cc %in% names(rea)) rea[[cc]] <- NA_real_
 }
 
-# Consolidar (coalesce) + limpiar _new
 rea <- rea %>%
   dplyr::mutate(
     sd_real  = dplyr::coalesce(sd_real,  sd_real_new),
@@ -356,7 +349,6 @@ rea <- rea %>%
   ) %>%
   dplyr::select(-dplyr::any_of(c("sd_real_new","var_real_new","cv_real_new")))
 
-# Si CV aún NA pero ya hay sd_real y mean_real, intenta definirlo con mean_real
 rea <- rea %>%
   dplyr::mutate(
     cv_real = dplyr::coalesce(cv_real, safe_div(sd_real, mean_real))
@@ -374,6 +366,7 @@ audit_na <- rea %>%
     na_var_real = sum(is.na(var_real)),
     na_cv_real  = sum(is.na(cv_real)),
     na_mean_real = sum(is.na(mean_real)),
+    na_median_real = sum(is.na(median_real)),
     na_ipc_q_avg = sum(is.na(ipc_q_avg)),
     na_deflator_q = sum(is.na(deflator_q)),
     .groups = "drop"
@@ -381,7 +374,6 @@ audit_na <- rea %>%
 
 save_validation_both(audit_na, "audit_06_deflated_columns.csv")
 
-# llaves únicas
 dups_final <- rea %>%
   dplyr::count(version, year, trimestre, name = "n") %>%
   dplyr::filter(n > 1)
@@ -391,7 +383,6 @@ if (nrow(dups_final) > 0) {
   stop("Duplicados en real_quarterly (revisa audit_06_duplicates_in_real.csv).")
 }
 
-# completitud 2008–2022 (60 por versión)
 exp_grid <- tidyr::expand_grid(
   version = sort(unique(rea$version)),
   year = CFGparams$year_min:CFGparams$year_max,
@@ -414,4 +405,4 @@ if (nrow(faltan) > 0) {
 save_rds(rea, CFGpaths$real_quarterly)
 save_paper_csv(rea, "real_quarterly_2008_2022", dir = CFGdirs$out_tables)
 
-message("✓ 06 listo: salarios reales trimestrales guardados en processed + tables + auditorías en validation.")
+message("✓ 06 listo: salarios reales (media + mediana) guardados en processed + tables + auditorías.")

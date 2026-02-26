@@ -118,7 +118,10 @@ steps <- list(
   
   # CV adjusted
   c("14_cv_adjusted_mean_build.R", NULL),
-  c("15_figures_cv_adjusted_mean.R", NULL)
+  c("15_figures_cv_adjusted_mean.R", NULL),
+  
+  # panel final
+  c("16_panel_quarterly_build.R", NULL)
 )
 
 t_start <- Sys.time()
