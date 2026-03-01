@@ -1,0 +1,5 @@
+criterion,p,tag
+AIC(n),6,baseline_mean_winsor
+HQ(n),6,baseline_mean_winsor
+SC(n),1,baseline_mean_winsor
+FPE(n),6,baseline_mean_winsor

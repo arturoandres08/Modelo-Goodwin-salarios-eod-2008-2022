@@ -1,0 +1,5 @@
+criterion,p,tag
+AIC(n),6,robust_mean_nowinsor
+HQ(n),6,robust_mean_nowinsor
+SC(n),1,robust_mean_nowinsor
+FPE(n),6,robust_mean_nowinsor

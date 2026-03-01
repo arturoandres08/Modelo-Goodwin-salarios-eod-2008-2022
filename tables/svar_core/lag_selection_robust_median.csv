@@ -1,0 +1,5 @@
+criterion,p,tag
+AIC(n),6,robust_median
+HQ(n),3,robust_median
+SC(n),1,robust_median
+FPE(n),6,robust_median

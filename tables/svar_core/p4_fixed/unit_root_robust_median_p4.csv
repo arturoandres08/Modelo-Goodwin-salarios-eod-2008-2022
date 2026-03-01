@@ -1,0 +1,4 @@
+variable,adf_stat,adf_p,kpss_stat,kpss_p,tag,p_used
+"ga (robust_median, p=4)",-4.253926229632438,0.01,0.08120852342769051,0.1,robust_median,4
+"gw (robust_median, p=4)",-5.368229564500869,0.01,0.34191153944361663,0.1,robust_median,4
+"v  (robust_median, p=4)",-2.5073873024532922,0.3697688133899043,0.2684887543639123,0.1,robust_median,4
