@@ -1,0 +1,10 @@
+spec,variable,T,p_joint,mean_Q1,mean_Q2,mean_Q3,mean_Q4
+Baseline (mean winsor),ga,59,6.963754904398995e-8,NA,NA,NA,NA
+Baseline (mean winsor),gw,59,0.8812929961515963,NA,NA,NA,NA
+Baseline (mean winsor),v,59,0.3491977949946584,NA,NA,NA,NA
+Robustez (mean no-winsor),ga,59,6.963754904398995e-8,NA,NA,NA,NA
+Robustez (mean no-winsor),gw,59,0.8644354971966236,NA,NA,NA,NA
+Robustez (mean no-winsor),v,59,0.3491977949946584,NA,NA,NA,NA
+Robustez (median),ga,59,6.963754904398995e-8,NA,NA,NA,NA
+Robustez (median),gw,59,0.6128103495061058,NA,NA,NA,NA
+Robustez (median),v,59,0.3491977949946584,NA,NA,NA,NA

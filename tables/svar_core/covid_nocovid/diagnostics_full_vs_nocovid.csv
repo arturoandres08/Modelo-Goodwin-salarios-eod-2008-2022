@@ -1,0 +1,3 @@
+stable,max_root_mod,serial_p,arch_p,sample,p_used,svar_B,svar_method
+TRUE,0.961329263708833,0.2907815433122871,0.9999999999982201,Full (2008Q1–2022Q4),4,diag_free,direct
+TRUE,0.9747475042366839,0.17574212578819515,1,noCOVID (2008Q1–2019Q4),4,diag_free,direct

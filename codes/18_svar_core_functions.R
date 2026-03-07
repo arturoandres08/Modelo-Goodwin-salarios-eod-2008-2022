@@ -31,15 +31,85 @@ build_core <- function(data, wage_col, a_col = "a_prod") {
   out
 }
 
-unit_root_table <- function(x, name) {
-  adf <- tseries::adf.test(x, alternative = "stationary")
-  kps <- tseries::kpss.test(x, null = "Level")
+unit_root_table <- function(x, name,
+                            adf_type = "drift",        # "none", "drift", "trend"
+                            adf_lag_select = "AIC",    # "AIC" o "BIC"
+                            kpss_type = "mu",          # "mu" (nivel) o "tau" (tendencia)
+                            kpss_lags = "short") {     # "short","long" o número
+  
+  if (!requireNamespace("urca", quietly = TRUE)) install.packages("urca")
+  x <- as.numeric(x)
+  x <- x[is.finite(x)]
+  Tn <- length(x)
+  
+  # -----------------------
+  # ADF (H0: raíz unitaria)
+  # -----------------------
+  adf <- urca::ur.df(x, type = adf_type, selectlags = adf_lag_select)
+  
+  # en ur.df: teststat es matriz; la fila 1 corresponde al tau-test relevante
+  adf_stat <- as.numeric(adf@teststat[1])
+  adf_cv10 <- as.numeric(adf@cval[1, "10pct"])
+  adf_cv5  <- as.numeric(adf@cval[1, "5pct"])
+  adf_cv1  <- as.numeric(adf@cval[1, "1pct"])
+  
+  # Rechazo ADF si stat es más negativo que el crítico (stat < cv)
+  adf_reject_5 <- adf_stat < adf_cv5
+  
+  # --- KPSS: H0 = estacionaria (nula invertida) ---
+  kpss <- urca::ur.kpss(x, type = kpss_type, lags = kpss_lags)
+  
+  kpss_stat <- as.numeric(kpss@teststat)
+  
+  cval <- kpss@cval
+  
+  get_cv <- function(level) {
+    # level: "10", "5", "1"
+    keys <- c(paste0(level, "pct"), paste0(level, "%"))
+    
+    if (is.null(cval)) return(NA_real_)
+    
+    # Caso matriz/data.frame: buscar en colnames
+    if (is.matrix(cval) || is.data.frame(cval)) {
+      cn <- colnames(cval)
+      for (k in keys) {
+        if (!is.null(cn) && k %in% cn) return(as.numeric(cval[1, k]))
+      }
+      return(NA_real_)
+    }
+    
+    # Caso vector nombrado
+    nm <- names(cval)
+    for (k in keys) {
+      if (!is.null(nm) && k %in% nm) return(as.numeric(cval[[k]]))
+    }
+    
+    NA_real_
+  }
+  
+  kpss_cv10 <- get_cv("10")
+  kpss_cv5  <- get_cv("5")
+  kpss_cv1  <- get_cv("1")
+  
+  kpss_reject_5 <- kpss_stat > kpss_cv5  # rechazo si el estadístico supera el crítico
+  
   tibble::tibble(
-    variable  = name,
-    adf_stat  = unname(adf$statistic),
-    adf_p     = adf$p.value,
-    kpss_stat = unname(kps$statistic),
-    kpss_p    = kps$p.value
+    variable = name,
+    T = Tn,
+    
+    ADF_type = adf_type,
+    ADF_stat = adf_stat,
+    ADF_cv_10 = adf_cv10,
+    ADF_cv_5  = adf_cv5,
+    ADF_cv_1  = adf_cv1,
+    ADF_reject_5pct = adf_reject_5,
+    
+    KPSS_type = kpss_type,
+    KPSS_stat = kpss_stat,
+    KPSS_cv_10 = kpss_cv10,
+    KPSS_cv_5  = kpss_cv5,
+    KPSS_cv_1  = kpss_cv1,
+    KPSS_reject_5pct = kpss_reject_5
   )
 }
 

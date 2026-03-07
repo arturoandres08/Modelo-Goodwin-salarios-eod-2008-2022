@@ -123,6 +123,9 @@ run_one_fixed <- function(wage_col, tag,
   readr::write_csv(mult,
                    file.path(dir_tbl, paste0("cum_multiplier_", tag, "_p", p_fixed, ".csv")))
   
+  readr::write_csv(irf_v_ga, file.path(dir_tbl, paste0("irf_v_to_ga_", tag, "_p", p_fixed, ".csv")))
+  readr::write_csv(irf_v_gw, file.path(dir_tbl, paste0("irf_v_to_gw_", tag, "_p", p_fixed, ".csv")))
+  readr::write_csv(irf_ga_gw, file.path(dir_tbl, paste0("irf_ga_to_gw_", tag, "_p", p_fixed, ".csv")))
   # ---- Figuras ----
   p1 <- plot_irf(irf_v_ga, paste0("IRF (p=", p_fixed, "): shock empleo (v) -> productividad (ga) [", tag, "]"), "ga")
   p2 <- plot_irf(irf_v_gw, paste0("IRF (p=", p_fixed, "): shock empleo (v) -> salarios (gw) [", tag, "]"), "gw")
@@ -145,4 +148,4 @@ res_baseline <- run_one_fixed("w_real_mean_winsor",   "baseline_mean_winsor", p_
 res_nowinsor <- run_one_fixed("w_real_mean_nowinsor", "robust_mean_nowinsor", p_fixed = P_FIXED)
 res_median   <- run_one_fixed("w_real_median",        "robust_median",        p_fixed = P_FIXED)
 
-message("\n✔ 19f listo: revisa tables/svar_core/p4_fixed y figures/svar_core/p4_fixed\n")
+message("\n✔ 19e listo: revisa tables/svar_core/p4_fixed y figures/svar_core/p4_fixed\n")

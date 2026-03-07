@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\caption{Evidencia de estacionalidad, tendencia determinística y estacionariedad (ADF/KPSS) para (ga, gw, v), p=4.}
+\label{tab:evidence_stationarity_p4}
+\footnotesize
+\begin{tabular}{lccccccccccc}
+\toprule
+Especificacion & Var & T & p(estac) & beta_t & p(trend) & ADF drift & ADF cv5 & ADF(5%) & KPSS mu & KPSS cv5 & KPSS(5%) \\
+\midrule
+Baseline (mean winsor) & ga & 59 & 0.0000 & -0.0002 & 0.6478 & -7.180 & -2.890 & Rechaza & 0.081 & 0.463 & No rechaza \\
+Baseline (mean winsor) & gw & 59 & 0.8813 & -0.0004 & 0.2094 & -5.419 & -2.890 & Rechaza & 0.297 & 0.463 & No rechaza \\
+Baseline (mean winsor) & v & 59 & 0.3492 & -0.0003 & 0.1425 & -2.879 & -2.890 & No rechaza & 0.268 & 0.463 & No rechaza \\
+Robustez (mean no-winsor) & ga & 59 & 0.0000 & -0.0002 & 0.6478 & -7.180 & -2.890 & Rechaza & 0.081 & 0.463 & No rechaza \\
+Robustez (mean no-winsor) & gw & 59 & 0.8644 & -0.0004 & 0.2270 & -5.509 & -2.890 & Rechaza & 0.274 & 0.463 & No rechaza \\
+Robustez (mean no-winsor) & v & 59 & 0.3492 & -0.0003 & 0.1425 & -2.879 & -2.890 & No rechaza & 0.268 & 0.463 & No rechaza \\
+Robustez (median) & ga & 59 & 0.0000 & -0.0002 & 0.6478 & -7.180 & -2.890 & Rechaza & 0.081 & 0.463 & No rechaza \\
+Robustez (median) & gw & 59 & 0.6128 & -0.0004 & 0.1721 & -5.880 & -2.890 & Rechaza & 0.342 & 0.463 & No rechaza \\
+Robustez (median) & v & 59 & 0.3492 & -0.0003 & 0.1425 & -2.879 & -2.890 & No rechaza & 0.268 & 0.463 & No rechaza \\
+\bottomrule
+\end{tabular}
+\end{table}
+
