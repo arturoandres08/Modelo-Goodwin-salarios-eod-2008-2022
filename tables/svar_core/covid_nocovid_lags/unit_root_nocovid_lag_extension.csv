@@ -1,0 +1,10 @@
+variable,T,ADF_type,ADF_stat,ADF_cv_10,ADF_cv_5,ADF_cv_1,ADF_reject_5pct,KPSS_type,KPSS_stat,KPSS_cv_10,KPSS_cv_5,KPSS_cv_1,KPSS_reject_5pct,sample,tag,p_used
+"ga (baseline_mean_winsor_nocovid, noCOVID, p=4)",47,drift,-6.818134936829119,-2.6,-2.93,-3.58,TRUE,mu,0.21294675183329306,0.347,0.463,0.739,FALSE,noCOVID (2008Q1-2019Q4),baseline_mean_winsor_nocovid,4
+"gw (baseline_mean_winsor_nocovid, noCOVID, p=4)",47,drift,-5.642891787892194,-2.6,-2.93,-3.58,TRUE,mu,0.08137110720735101,0.347,0.463,0.739,FALSE,noCOVID (2008Q1-2019Q4),baseline_mean_winsor_nocovid,4
+"v (baseline_mean_winsor_nocovid, noCOVID, p=4)",47,drift,-1.9504922225412649,-2.6,-2.93,-3.58,FALSE,mu,0.4012073969842127,0.347,0.463,0.739,FALSE,noCOVID (2008Q1-2019Q4),baseline_mean_winsor_nocovid,4
+"ga (baseline_mean_winsor_nocovid, noCOVID, p=5)",47,drift,-6.818134936829119,-2.6,-2.93,-3.58,TRUE,mu,0.21294675183329306,0.347,0.463,0.739,FALSE,noCOVID (2008Q1-2019Q4),baseline_mean_winsor_nocovid,5
+"gw (baseline_mean_winsor_nocovid, noCOVID, p=5)",47,drift,-5.642891787892194,-2.6,-2.93,-3.58,TRUE,mu,0.08137110720735101,0.347,0.463,0.739,FALSE,noCOVID (2008Q1-2019Q4),baseline_mean_winsor_nocovid,5
+"v (baseline_mean_winsor_nocovid, noCOVID, p=5)",47,drift,-1.9504922225412649,-2.6,-2.93,-3.58,FALSE,mu,0.4012073969842127,0.347,0.463,0.739,FALSE,noCOVID (2008Q1-2019Q4),baseline_mean_winsor_nocovid,5
+"ga (baseline_mean_winsor_nocovid, noCOVID, p=6)",47,drift,-6.818134936829119,-2.6,-2.93,-3.58,TRUE,mu,0.21294675183329306,0.347,0.463,0.739,FALSE,noCOVID (2008Q1-2019Q4),baseline_mean_winsor_nocovid,6
+"gw (baseline_mean_winsor_nocovid, noCOVID, p=6)",47,drift,-5.642891787892194,-2.6,-2.93,-3.58,TRUE,mu,0.08137110720735101,0.347,0.463,0.739,FALSE,noCOVID (2008Q1-2019Q4),baseline_mean_winsor_nocovid,6
+"v (baseline_mean_winsor_nocovid, noCOVID, p=6)",47,drift,-1.9504922225412649,-2.6,-2.93,-3.58,FALSE,mu,0.4012073969842127,0.347,0.463,0.739,FALSE,noCOVID (2008Q1-2019Q4),baseline_mean_winsor_nocovid,6

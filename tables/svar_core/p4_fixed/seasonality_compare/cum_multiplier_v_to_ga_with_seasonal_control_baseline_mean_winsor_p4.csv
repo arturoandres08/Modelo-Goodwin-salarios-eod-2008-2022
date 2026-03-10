@@ -1,0 +1,4 @@
+H,multiplier,lower,upper,model,seasonal_control,impulse,response,tag,p_used,ci
+4,-4.6245033247691025e-4,-0.04308663745804468,0.041353600394869336,with_seasonal_control,TRUE,v,ga,baseline_mean_winsor,4,0.95
+8,0.005428085054437575,-0.05751260553627435,0.06725331962057417,with_seasonal_control,TRUE,v,ga,baseline_mean_winsor,4,0.95
+12,0.006583457154618271,-0.06944105830170418,0.07999230940698442,with_seasonal_control,TRUE,v,ga,baseline_mean_winsor,4,0.95

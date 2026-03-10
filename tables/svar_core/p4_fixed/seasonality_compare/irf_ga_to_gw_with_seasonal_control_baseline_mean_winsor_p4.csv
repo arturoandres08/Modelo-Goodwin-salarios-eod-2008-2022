@@ -1,0 +1,14 @@
+h,irf,lower,upper,impulse,response,model,seasonal_control,tag,p_used,ci
+0,0,0,0,ga,gw,with_seasonal_control,TRUE,baseline_mean_winsor,4,0.95
+1,0.0013088400305153846,-0.01006011142366247,0.0122397734692973,ga,gw,with_seasonal_control,TRUE,baseline_mean_winsor,4,0.95
+2,0.006479593001247157,-0.005127406404444378,0.01636767880363051,ga,gw,with_seasonal_control,TRUE,baseline_mean_winsor,4,0.95
+3,0.00799563407578123,-0.004287848025769632,0.017929789106604824,ga,gw,with_seasonal_control,TRUE,baseline_mean_winsor,4,0.95
+4,-2.60416550282607e-4,-0.010893606727711362,0.010634880633981394,ga,gw,with_seasonal_control,TRUE,baseline_mean_winsor,4,0.95
+5,-0.011974187955753529,-0.02102277660433785,7.169593820691118e-4,ga,gw,with_seasonal_control,TRUE,baseline_mean_winsor,4,0.95
+6,-0.004678406934679299,-0.013164639418056236,0.004240472752300948,ga,gw,with_seasonal_control,TRUE,baseline_mean_winsor,4,0.95
+7,1.9942180337033426e-4,-0.007413160385609152,0.00791633551532872,ga,gw,with_seasonal_control,TRUE,baseline_mean_winsor,4,0.95
+8,-3.7442377030467706e-4,-0.005823837101309244,0.006514905715382277,ga,gw,with_seasonal_control,TRUE,baseline_mean_winsor,4,0.95
+9,-0.0024087210888221293,-0.006133503167184612,0.005545021376310632,ga,gw,with_seasonal_control,TRUE,baseline_mean_winsor,4,0.95
+10,-0.00301394783485612,-0.0077195283221370625,0.0023402616490733425,ga,gw,with_seasonal_control,TRUE,baseline_mean_winsor,4,0.95
+11,-0.0011765676490318147,-0.006277346169566177,0.0031217332439554026,ga,gw,with_seasonal_control,TRUE,baseline_mean_winsor,4,0.95
+12,0.0011310115198951735,-0.0030993581629195884,0.005630562322135521,ga,gw,with_seasonal_control,TRUE,baseline_mean_winsor,4,0.95

@@ -1,0 +1,9 @@
+sample,tag,wage_col,p,T_total,T_eff,params_per_eq_const,obs_per_param
+nocovid (2008Q1-2019Q4),baseline_mean_winsor_nocovid,w_real_mean_winsor,1,47,46,4,11.5
+nocovid (2008Q1-2019Q4),baseline_mean_winsor_nocovid,w_real_mean_winsor,2,47,45,7,6.428571428571429
+nocovid (2008Q1-2019Q4),baseline_mean_winsor_nocovid,w_real_mean_winsor,3,47,44,10,4.4
+nocovid (2008Q1-2019Q4),baseline_mean_winsor_nocovid,w_real_mean_winsor,4,47,43,13,3.3076923076923075
+nocovid (2008Q1-2019Q4),baseline_mean_winsor_nocovid,w_real_mean_winsor,5,47,42,16,2.625
+nocovid (2008Q1-2019Q4),baseline_mean_winsor_nocovid,w_real_mean_winsor,6,47,41,19,2.1578947368421053
+nocovid (2008Q1-2019Q4),baseline_mean_winsor_nocovid,w_real_mean_winsor,7,47,40,22,1.8181818181818181
+nocovid (2008Q1-2019Q4),baseline_mean_winsor_nocovid,w_real_mean_winsor,8,47,39,25,1.56

@@ -1,0 +1,7 @@
+model,impulse,response,sign_h0,first_sig_h,any_sig,peak_abs_h,peak_sign
+no_seasonal_control,ga,gw,cero,5,TRUE,5,negativo
+no_seasonal_control,v,ga,cero,2,TRUE,3,negativo
+no_seasonal_control,v,gw,cero,8,TRUE,8,positivo
+with_seasonal_control,ga,gw,cero,NA,FALSE,5,negativo
+with_seasonal_control,v,ga,cero,NA,FALSE,5,positivo
+with_seasonal_control,v,gw,cero,NA,FALSE,2,positivo

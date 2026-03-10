@@ -1,0 +1,5 @@
+sample,tag,wage_col,criterion,best_p,best_value
+nocovid (2008Q1-2019Q4),baseline_mean_winsor_nocovid,w_real_mean_winsor,AIC(n),8,-24.080445548777746
+nocovid (2008Q1-2019Q4),baseline_mean_winsor_nocovid,w_real_mean_winsor,FPE(n),4,4.483935954079998e-11
+nocovid (2008Q1-2019Q4),baseline_mean_winsor_nocovid,w_real_mean_winsor,HQ(n),3,-23.31837662275438
+nocovid (2008Q1-2019Q4),baseline_mean_winsor_nocovid,w_real_mean_winsor,SC(n),3,-22.497845820484844

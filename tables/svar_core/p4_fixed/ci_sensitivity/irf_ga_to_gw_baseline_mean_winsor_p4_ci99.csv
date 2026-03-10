@@ -1,0 +1,14 @@
+h,irf,lower,upper,ci_excludes_zero,effect_sign,band_sign,impulse,response,ci,ci_label,ci_tag,tag,p_used
+0,0,0,0,FALSE,cero,incluye_cero,ga,gw,0.99,99%,99,baseline_mean_winsor,4
+1,0.004089492472904304,-0.010810118513322238,0.017634404638267074,FALSE,positivo,incluye_cero,ga,gw,0.99,99%,99,baseline_mean_winsor,4
+2,0.004792143267250524,-0.007566540753325373,0.017266367155537452,FALSE,positivo,incluye_cero,ga,gw,0.99,99%,99,baseline_mean_winsor,4
+3,0.005166686810611096,-0.008582551371751464,0.017545971610787574,FALSE,positivo,incluye_cero,ga,gw,0.99,99%,99,baseline_mean_winsor,4
+4,0.0010964876589849573,-0.010752741226825869,0.01342259694114157,FALSE,positivo,incluye_cero,ga,gw,0.99,99%,99,baseline_mean_winsor,4
+5,-0.011202950527014302,-0.023340572828288244,0.002199667405952884,FALSE,negativo,incluye_cero,ga,gw,0.99,99%,99,baseline_mean_winsor,4
+6,-0.0041552421749252305,-0.017121770702922534,0.006656001684115716,FALSE,negativo,incluye_cero,ga,gw,0.99,99%,99,baseline_mean_winsor,4
+7,9.303828820498343e-4,-0.007753650435752473,0.010597256730457945,FALSE,positivo,incluye_cero,ga,gw,0.99,99%,99,baseline_mean_winsor,4
+8,7.882818166521879e-4,-0.00809846074773207,0.009857921140014655,FALSE,positivo,incluye_cero,ga,gw,0.99,99%,99,baseline_mean_winsor,4
+9,-0.005440968692567747,-0.011861105044097502,0.003184457120081994,FALSE,negativo,incluye_cero,ga,gw,0.99,99%,99,baseline_mean_winsor,4
+10,-0.002546677933946552,-0.00917097486808935,0.005045256631510336,FALSE,negativo,incluye_cero,ga,gw,0.99,99%,99,baseline_mean_winsor,4
+11,-8.675933279516498e-4,-0.006109077771680563,0.005982432318324582,FALSE,negativo,incluye_cero,ga,gw,0.99,99%,99,baseline_mean_winsor,4
+12,0.0018474988960376067,-0.003952902670685903,0.007835004483545535,FALSE,positivo,incluye_cero,ga,gw,0.99,99%,99,baseline_mean_winsor,4

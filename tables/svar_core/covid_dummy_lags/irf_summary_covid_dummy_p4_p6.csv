@@ -1,0 +1,13 @@
+model,model_label,p_used,dummy,wage_col,impulse,response,sign_h0,peak_h,peak_irf,first_h_sig,last_h
+p4_no_dummy,p=4 | sin dummy,4,FALSE,w_real_mean_winsor,ga,gw,0,5,-0.011202950527014302,5,12
+p4_no_dummy,p=4 | sin dummy,4,FALSE,w_real_mean_winsor,v,ga,0,3,-0.0173934701567416,2,12
+p4_no_dummy,p=4 | sin dummy,4,FALSE,w_real_mean_winsor,v,gw,0,8,0.004934034878632154,NA,12
+p4_with_dummy,p=4 | con dummy COVID,4,TRUE,w_real_mean_winsor,ga,gw,0,5,-0.008592353926522307,NA,12
+p4_with_dummy,p=4 | con dummy COVID,4,TRUE,w_real_mean_winsor,v,ga,0,3,-0.017996333175468282,3,12
+p4_with_dummy,p=4 | con dummy COVID,4,TRUE,w_real_mean_winsor,v,gw,0,2,0.005529869818781871,NA,12
+p6_no_dummy,p=6 | sin dummy,6,FALSE,w_real_mean_winsor,ga,gw,0,4,0.011108202284909365,NA,12
+p6_no_dummy,p=6 | sin dummy,6,FALSE,w_real_mean_winsor,v,ga,0,3,-0.016012275503775392,3,12
+p6_no_dummy,p=6 | sin dummy,6,FALSE,w_real_mean_winsor,v,gw,0,1,0.013380623805381468,1,12
+p6_with_dummy,p=6 | con dummy COVID,6,TRUE,w_real_mean_winsor,ga,gw,0,4,0.022777088636076488,2,12
+p6_with_dummy,p=6 | con dummy COVID,6,TRUE,w_real_mean_winsor,v,ga,0,3,-0.016824133719372834,3,12
+p6_with_dummy,p=6 | con dummy COVID,6,TRUE,w_real_mean_winsor,v,gw,0,1,0.013754262118516795,1,12

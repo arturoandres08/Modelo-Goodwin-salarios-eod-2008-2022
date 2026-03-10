@@ -1,0 +1,10 @@
+sample,tag,p_used,impulse,response,sign_h0,peak_h,first_h_sig,last_h
+noCOVID (2008Q1-2019Q4),baseline_mean_winsor_nocovid,4,ga,gw,0,1,NA,12
+noCOVID (2008Q1-2019Q4),baseline_mean_winsor_nocovid,4,v,ga,0,1,NA,12
+noCOVID (2008Q1-2019Q4),baseline_mean_winsor_nocovid,4,v,gw,0,2,NA,12
+noCOVID (2008Q1-2019Q4),baseline_mean_winsor_nocovid,5,ga,gw,0,5,NA,12
+noCOVID (2008Q1-2019Q4),baseline_mean_winsor_nocovid,5,v,ga,0,7,NA,12
+noCOVID (2008Q1-2019Q4),baseline_mean_winsor_nocovid,5,v,gw,0,2,NA,12
+noCOVID (2008Q1-2019Q4),baseline_mean_winsor_nocovid,6,ga,gw,0,4,NA,12
+noCOVID (2008Q1-2019Q4),baseline_mean_winsor_nocovid,6,v,ga,0,7,7,12
+noCOVID (2008Q1-2019Q4),baseline_mean_winsor_nocovid,6,v,gw,0,2,2,12

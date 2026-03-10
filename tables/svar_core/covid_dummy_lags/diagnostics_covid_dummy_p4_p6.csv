@@ -1,0 +1,5 @@
+stable,max_root_mod,serial_p,arch_p,model,model_label,dummy,p_used,wage_col,svar_B,svar_method
+TRUE,0.961329263708833,0.2907815433122871,0.9999999999982201,p4_no_dummy,p=4 | sin dummy,FALSE,4,w_real_mean_winsor,diag_free,direct
+TRUE,0.9651629382421464,0.4195464684050405,0.9999999999982201,p4_with_dummy,p=4 | con dummy COVID,TRUE,4,w_real_mean_winsor,diag_free,direct
+FALSE,1.0423432906211574,0.013260174496901533,0.999999999999977,p6_no_dummy,p=6 | sin dummy,FALSE,6,w_real_mean_winsor,diag_free,direct
+FALSE,1.0262564159774203,0.00871598411215202,0.999999999999977,p6_with_dummy,p=6 | con dummy COVID,TRUE,6,w_real_mean_winsor,diag_free,direct

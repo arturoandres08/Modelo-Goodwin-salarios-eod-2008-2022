@@ -1,0 +1,4 @@
+stable,max_root_mod,serial_p,arch_p,sample,tag,p_used
+TRUE,0.9747475042366839,0.17574212578819515,1,noCOVID (2008Q1-2019Q4),baseline_mean_winsor_nocovid,4
+TRUE,0.9670405930823522,0.038453163470978935,1,noCOVID (2008Q1-2019Q4),baseline_mean_winsor_nocovid,5
+TRUE,0.9691205706779376,4.5698950387063064e-4,1,noCOVID (2008Q1-2019Q4),baseline_mean_winsor_nocovid,6

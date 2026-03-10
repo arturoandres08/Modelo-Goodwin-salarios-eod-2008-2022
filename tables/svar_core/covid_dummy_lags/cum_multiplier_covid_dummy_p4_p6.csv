@@ -1,0 +1,13 @@
+H,multiplier,lower,upper,impulse,response,model,model_label,dummy,p_used,wage_col,ci
+4,8.280084538956206e-4,-0.04233621045141265,0.04551644793186829,v,ga,p4_no_dummy,p=4 | sin dummy,FALSE,4,w_real_mean_winsor,0.95
+8,0.008761442652394492,-0.0715296080209979,0.08714515052036897,v,ga,p4_no_dummy,p=4 | sin dummy,FALSE,4,w_real_mean_winsor,0.95
+12,0.012278920391454182,-0.09675593814595357,0.11671553220653509,v,ga,p4_no_dummy,p=4 | sin dummy,FALSE,4,w_real_mean_winsor,0.95
+4,-0.0042137562797450855,-0.043071423982965075,0.03821434529104616,v,ga,p4_with_dummy,p=4 | con dummy COVID,TRUE,4,w_real_mean_winsor,0.95
+8,0.0029550593097129817,-0.0691568992296512,0.07673047329431587,v,ga,p4_with_dummy,p=4 | con dummy COVID,TRUE,4,w_real_mean_winsor,0.95
+12,0.006803112023090642,-0.09210941725101057,0.10466253169223112,v,ga,p4_with_dummy,p=4 | con dummy COVID,TRUE,4,w_real_mean_winsor,0.95
+4,0.004659058004504261,-0.05037621101176309,0.0549608149279582,v,ga,p6_no_dummy,p=6 | sin dummy,FALSE,6,w_real_mean_winsor,0.95
+8,0.01224337977123764,-0.09789177288423306,0.11075694261627379,v,ga,p6_no_dummy,p=6 | sin dummy,FALSE,6,w_real_mean_winsor,0.95
+12,0.02191789694879482,-0.13411585584455077,0.1602827856853348,v,ga,p6_no_dummy,p=6 | sin dummy,FALSE,6,w_real_mean_winsor,0.95
+4,0.001171681469520533,-0.043414601493125586,0.043441594651780296,v,ga,p6_with_dummy,p=6 | con dummy COVID,TRUE,6,w_real_mean_winsor,0.95
+8,0.004560849520928386,-0.0872530433213662,0.08882178041219786,v,ga,p6_with_dummy,p=6 | con dummy COVID,TRUE,6,w_real_mean_winsor,0.95
+12,0.009309622804908217,-0.12479501104437622,0.12990006087010655,v,ga,p6_with_dummy,p=6 | con dummy COVID,TRUE,6,w_real_mean_winsor,0.95

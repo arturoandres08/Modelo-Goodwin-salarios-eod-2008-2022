@@ -1,0 +1,2 @@
+stable,max_root_mod,serial_p,arch_p,model,seasonal_control,tag,p_used
+TRUE,0.8672367331652673,0.38267472054479046,0.9999999999982201,with_seasonal_control,TRUE,baseline_mean_winsor,4

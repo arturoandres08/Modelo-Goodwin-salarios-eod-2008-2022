@@ -1,0 +1,7 @@
+H,impulse,response,multiplier_sign,max_ci_robust,max_ci_robust_label,robust_68,robust_90,robust_95,robust_99,robust_99_9,tag,p_used
+4,v,ga,positivo,NA,ninguno,FALSE,FALSE,FALSE,FALSE,FALSE,baseline_mean_winsor,4
+8,v,ga,positivo,NA,ninguno,FALSE,FALSE,FALSE,FALSE,FALSE,baseline_mean_winsor,4
+12,v,ga,positivo,NA,ninguno,FALSE,FALSE,FALSE,FALSE,FALSE,baseline_mean_winsor,4
+4,v,gw,positivo,NA,ninguno,FALSE,FALSE,FALSE,FALSE,FALSE,baseline_mean_winsor,4
+8,v,gw,positivo,NA,ninguno,FALSE,FALSE,FALSE,FALSE,FALSE,baseline_mean_winsor,4
+12,v,gw,positivo,NA,ninguno,FALSE,FALSE,FALSE,FALSE,FALSE,baseline_mean_winsor,4
