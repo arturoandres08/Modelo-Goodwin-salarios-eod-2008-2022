@@ -1,0 +1,352 @@
+h,irf,lower,upper,impulse,response,relation,ci,ci_label,ci_tag,tag,wage_col,p_used,block,block_title
+0,0.05065697619098345,0.02859061241367724,0.05663745460658581,ga,ga,ga -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+1,-0.009462206214136447,-0.015151314105601416,-0.0031669696955596302,ga,ga,ga -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+2,-0.021103531621886332,-0.028221933363850097,-0.006567120333550103,ga,ga,ga -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+3,-0.010876379756144017,-0.01548627686803425,-0.0036877833807914713,ga,ga,ga -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+4,0.021873141971490383,0.011606791598590438,0.02468017108434106,ga,ga,ga -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+5,-0.0036176331686234215,-0.009704545320951887,0.0023088361552186638,ga,ga,ga -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+6,-0.006829558558663015,-0.013325874947067919,0.002460798205701851,ga,ga,ga -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+7,-0.011467237588021413,-0.014988636194740796,-0.003777134566339768,ga,ga,ga -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+8,0.0064359367878486385,-4.049972463623762e-4,0.010668796788187404,ga,ga,ga -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+9,-0.0022534868925757168,-0.006765858874777094,0.003541049575043925,ga,ga,ga -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+10,0.003628439306627399,-0.0010443180799206754,0.008844645513400869,ga,ga,ga -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+11,-0.005608673276145874,-0.009010361575041924,4.150207813846468e-4,ga,ga,ga -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+12,0.004092050319231945,-6.652353996239587e-4,0.007511605430954692,ga,ga,ga -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+0,0.05065697619098345,0.026170832225043038,0.06410262336870617,ga,ga,ga -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+1,-0.009462206214136447,-0.019484054145406868,-9.770164593826935e-5,ga,ga,ga -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+2,-0.021103531621886332,-0.03487966034714102,-0.0037488338742507374,ga,ga,ga -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+3,-0.010876379756144017,-0.019384705748866624,7.394721733270036e-4,ga,ga,ga -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+4,0.021873141971490383,0.007739571248070473,0.030014385084638336,ga,ga,ga -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+5,-0.0036176331686234215,-0.014710608832032887,0.00645549953466048,ga,ga,ga -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+6,-0.006829558558663015,-0.019236977571127106,0.005623291351223284,ga,ga,ga -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+7,-0.011467237588021413,-0.01852410340136224,3.606008073672374e-4,ga,ga,ga -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+8,0.0064359367878486385,-0.0045655842070571355,0.015297252841355188,ga,ga,ga -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+9,-0.0022534868925757168,-0.010328722276200202,0.008288659732606082,ga,ga,ga -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+10,0.003628439306627399,-0.004835035684303268,0.01129638850183834,ga,ga,ga -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+11,-0.005608673276145874,-0.012206888356033523,0.003418462262898742,ga,ga,ga -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+12,0.004092050319231945,-0.003829350008809915,0.010831719531836488,ga,ga,ga -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+0,0.05065697619098345,0.024661414049067003,0.06836016897815554,ga,ga,ga -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+1,-0.009462206214136447,-0.021860946555817367,0.001135442252384188,ga,ga,ga -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+2,-0.021103531621886332,-0.038660504439152796,-0.0019303670162241105,ga,ga,ga -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+3,-0.010876379756144017,-0.020324131569803686,0.004298714177840537,ga,ga,ga -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+4,0.021873141971490383,0.005589813318270059,0.03352607586095329,ga,ga,ga -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+5,-0.0036176331686234215,-0.018154293625818427,0.008192637677240124,ga,ga,ga -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+6,-0.006829558558663015,-0.022514508810336047,0.007581149194567909,ga,ga,ga -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+7,-0.011467237588021413,-0.02065068449064902,0.003426833665098197,ga,ga,ga -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+8,0.0064359367878486385,-0.006460640332698358,0.01809827752520677,ga,ga,ga -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+9,-0.0022534868925757168,-0.012588921921473933,0.010035585015629678,ga,ga,ga -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+10,0.003628439306627399,-0.007619401042204116,0.01365884381794343,ga,ga,ga -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+11,-0.005608673276145874,-0.013544268416934646,0.005420100293366028,ga,ga,ga -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+12,0.004092050319231945,-0.005852936927215787,0.012810438597432331,ga,ga,ga -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+0,0,0,0,ga,gw,ga -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+1,0.004089492472904304,-0.001417312088410502,0.008792741957085817,ga,gw,ga -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+2,0.004792143267250524,-4.46103755157438e-4,0.008780688906627953,ga,gw,ga -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+3,0.005166686810611096,-7.499925490487182e-4,0.008969432773353764,ga,gw,ga -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+4,0.0010964876589849573,-0.002842376966355245,0.005627514277207642,ga,gw,ga -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+5,-0.011202950527014302,-0.014685043577569584,-0.004250677666239326,ga,gw,ga -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+6,-0.0041552421749252305,-0.007146132875805174,7.891587043537372e-4,ga,gw,ga -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+7,9.303828820498343e-4,-0.00199208851100656,0.00433863904561142,ga,gw,ga -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+8,7.882818166521879e-4,-0.0019951646182753482,0.003952335313466728,ga,gw,ga -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+9,-0.005440968692567747,-0.00655786068073553,-9.948815807471992e-4,ga,gw,ga -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+10,-0.002546677933946552,-0.003864678790854818,6.04943129555996e-4,ga,gw,ga -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+11,-8.675933279516498e-4,-0.002380076874266957,0.0013088462067557761,ga,gw,ga -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+12,0.0018474988960376067,-1.922766321159158e-5,0.00359226622812232,ga,gw,ga -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+0,0,0,0,ga,gw,ga -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+1,0.004089492472904304,-0.004774634006548251,0.012164855532755318,ga,gw,ga -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+2,0.004792143267250524,-0.003330696653696544,0.011932930127108058,ga,gw,ga -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+3,0.005166686810611096,-0.0037797930016822082,0.01325450028739547,ga,gw,ga -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+4,0.0010964876589849573,-0.006698433514684102,0.008682842725481348,ga,gw,ga -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+5,-0.011202950527014302,-0.019422086835523496,-0.001674832159223132,ga,gw,ga -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+6,-0.0041552421749252305,-0.010824695981137425,0.0029436439829785533,ga,gw,ga -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+7,9.303828820498343e-4,-0.004608470285663908,0.006914877309651456,ga,gw,ga -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+8,7.882818166521879e-4,-0.004497556924909697,0.006075907060801993,ga,gw,ga -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+9,-0.005440968692567747,-0.009137403977482396,4.277259614498889e-4,ga,gw,ga -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+10,-0.002546677933946552,-0.0060431489874922676,0.0019745222363776937,ga,gw,ga -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+11,-8.675933279516498e-4,-0.0041876844332018465,0.0029243932131794628,ga,gw,ga -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+12,0.0018474988960376067,-0.0012205195982557145,0.005516065271145423,ga,gw,ga -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+0,0,0,0,ga,gw,ga -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+1,0.004089492472904304,-0.00712882774967557,0.013582391738473549,ga,gw,ga -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+2,0.004792143267250524,-0.004716313671156094,0.013490877472163853,ga,gw,ga -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+3,0.005166686810611096,-0.005299752609769774,0.01413680328255898,ga,gw,ga -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+4,0.0010964876589849573,-0.008437527308314445,0.010150295571088297,ga,gw,ga -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+5,-0.011202950527014302,-0.020429902806280247,-7.66011622590163e-4,ga,gw,ga -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+6,-0.0041552421749252305,-0.012214012758889906,0.0042960113825845445,ga,gw,ga -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+7,9.303828820498343e-4,-0.005627618184807778,0.007749807095446794,ga,gw,ga -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+8,7.882818166521879e-4,-0.005983686440217819,0.007378771636128944,ga,gw,ga -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+9,-0.005440968692567747,-0.010095551728836154,0.0015379526653732894,ga,gw,ga -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+10,-0.002546677933946552,-0.0069080867149799025,0.0024326842580244387,ga,gw,ga -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+11,-8.675933279516498e-4,-0.004926459918479525,0.004293395648824423,ga,gw,ga -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+12,0.0018474988960376067,-0.0022493993716443945,0.005955270582667738,ga,gw,ga -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+0,-0.013518036611710924,-0.017145977318479305,-0.004105788012237885,ga,v,ga -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+1,-0.015659109002032778,-0.01853812423848216,-0.006086776152565398,ga,v,ga -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+2,-0.008756586176562303,-0.010485857591738897,-0.0026112684248505136,ga,v,ga -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+3,-0.00550169501221264,-0.0073652330804789305,-5.170189571154464e-4,ga,v,ga -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+4,-0.005536004364627551,-0.007289334030740998,-3.7487700241615497e-4,ga,v,ga -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+5,-0.00469004176583439,-0.005461193328506943,-2.4901330944422835e-4,ga,v,ga -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+6,-7.203694679568487e-4,-0.0018798144597717446,0.002850607997903565,ga,v,ga -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+7,7.925691699690531e-4,-8.111207203937704e-4,0.003921608546992501,ga,v,ga -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+8,9.69610831095746e-4,-4.3106110920046437e-4,0.0037354797693608926,ga,v,ga -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+9,-3.952564243503528e-4,-0.0014938060157390328,0.002296234847753291,ga,v,ga -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+10,1.3626055451156963e-5,-0.001134440317463946,0.002028645202972313,ga,v,ga -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+11,-2.0346705773208407e-4,-0.001329020848774025,0.0013764615878226055,ga,v,ga -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+12,-1.41349397448553e-4,-0.0012338680671215164,0.0010898005346996339,ga,v,ga -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+0,-0.013518036611710924,-0.020125597722736803,-0.003249335290585207,ga,v,ga -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+1,-0.015659109002032778,-0.022314809054162835,-0.0048039572340847336,ga,v,ga -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+2,-0.008756586176562303,-0.013809065378810966,-0.0011960233120387638,ga,v,ga -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+3,-0.00550169501221264,-0.010364028036326495,0.0010078850901449241,ga,v,ga -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+4,-0.005536004364627551,-0.010359141651649445,0.001119912554864389,ga,v,ga -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+5,-0.00469004176583439,-0.00842448457122524,0.0011418554708153,ga,v,ga -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+6,-7.203694679568487e-4,-0.004223046220353151,0.0048553133871709585,ga,v,ga -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+7,7.925691699690531e-4,-0.0026311929975466985,0.00614111817288989,ga,v,ga -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+8,9.69610831095746e-4,-0.0021031498890233947,0.005565048364488342,ga,v,ga -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+9,-3.952564243503528e-4,-0.003073513761277683,0.003950986386874447,ga,v,ga -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+10,1.3626055451156963e-5,-0.002738283867680689,0.0037343507049045644,ga,v,ga -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+11,-2.0346705773208407e-4,-0.0025267951625038455,0.0029390440705197064,ga,v,ga -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+12,-1.41349397448553e-4,-0.0025777829092191204,0.0022696025816728604,ga,v,ga -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+0,-0.013518036611710924,-0.021612800617759897,-0.0023645332886666173,ga,v,ga -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+1,-0.015659109002032778,-0.023698140998901083,-0.004129284078010572,ga,v,ga -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+2,-0.008756586176562303,-0.01637326664094244,-5.254830530788541e-4,ga,v,ga -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+3,-0.00550169501221264,-0.01285998535559371,0.0014425776168447385,ga,v,ga -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+4,-0.005536004364627551,-0.012826299349989962,0.0019090897449481478,ga,v,ga -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+5,-0.00469004176583439,-0.009957157338970797,0.0020860198857434687,ga,v,ga -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+6,-7.203694679568487e-4,-0.005787041198840267,0.005778561279367377,ga,v,ga -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+7,7.925691699690531e-4,-0.004110865918575574,0.007301266690700863,ga,v,ga -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+8,9.69610831095746e-4,-0.0034877871233094425,0.006563742903429348,ga,v,ga -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+9,-3.952564243503528e-4,-0.004053482270722498,0.0049211976838482285,ga,v,ga -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+10,1.3626055451156963e-5,-0.00343144913893982,0.004833678109290006,ga,v,ga -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+11,-2.0346705773208407e-4,-0.0034430260859390134,0.004115305532598484,ga,v,ga -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+12,-1.41349397448553e-4,-0.003367015012737515,0.003083596630873367,ga,v,ga -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_ga,Shock de productividad
+0,0,0,0,gw,ga,gw -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+1,0.004055117885350964,-0.0021217136081191786,0.00960180390980822,gw,ga,gw -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+2,-0.01060120813041066,-0.015436185380989339,-0.003447782791138195,gw,ga,gw -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+3,0.012376771993586519,0.0041423482474090955,0.018508927623041977,gw,ga,gw -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+4,0.0014749258129561859,-0.006270977505552029,0.007871508307602484,gw,ga,gw -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+5,-0.0026376134784994202,-0.00861342281620141,0.0030395914421638068,gw,ga,gw -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+6,-0.00410946733047372,-0.009007793464338202,0.0029101795867789533,gw,ga,gw -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+7,0.0021812044815720617,-0.003027085563104842,0.00745081168750872,gw,ga,gw -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+8,0.004138902430595393,-0.001290421992060249,0.008061929590419226,gw,ga,gw -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+9,0.003545846363555991,-0.0011664295916279312,0.0067390017028040655,gw,ga,gw -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+10,-0.0019754803793553865,-0.005557943848653036,0.0016089294077804128,gw,ga,gw -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+11,-3.4506254251810963e-4,-0.0037087351836306557,0.0027345349089860174,gw,ga,gw -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+12,5.270382205556808e-4,-0.0024886255941461914,0.0030592710029249633,gw,ga,gw -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+0,0,0,0,gw,ga,gw -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+1,0.004055117885350964,-0.0067414858613112595,0.015045876821259766,gw,ga,gw -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+2,-0.01060120813041066,-0.02035047005201208,3.0594173957416374e-4,gw,ga,gw -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+3,0.012376771993586519,-0.0013380053719535727,0.02356163475881307,gw,ga,gw -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+4,0.0014749258129561859,-0.010956517329138483,0.012503430767518524,gw,ga,gw -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+5,-0.0026376134784994202,-0.013625030476815821,0.007776748245291338,gw,ga,gw -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+6,-0.00410946733047372,-0.013044715193899558,0.006369579669472674,gw,ga,gw -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+7,0.0021812044815720617,-0.006877137373797205,0.011179911091466606,gw,ga,gw -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+8,0.004138902430595393,-0.004290065021599047,0.012272209116326501,gw,ga,gw -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+9,0.003545846363555991,-0.0038624316649445048,0.00986777485845401,gw,ga,gw -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+10,-0.0019754803793553865,-0.008625270244081808,0.003913823694494124,gw,ga,gw -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+11,-3.4506254251810963e-4,-0.006592309059356118,0.005218764140568525,gw,ga,gw -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+12,5.270382205556808e-4,-0.004777755246737142,0.005522450910603128,gw,ga,gw -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+0,0,0,0,gw,ga,gw -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+1,0.004055117885350964,-0.010167844374381414,0.016009566023472168,gw,ga,gw -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+2,-0.01060120813041066,-0.022131752709397788,0.003065037184970033,gw,ga,gw -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+3,0.012376771993586519,-0.0025977061480652935,0.025464048610580416,gw,ga,gw -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+4,0.0014749258129561859,-0.013327286937962878,0.015724788589435223,gw,ga,gw -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+5,-0.0026376134784994202,-0.015543608959077556,0.010524603618350573,gw,ga,gw -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+6,-0.00410946733047372,-0.01475772018639347,0.009239927974360766,gw,ga,gw -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+7,0.0021812044815720617,-0.008660266576580106,0.012887857805604095,gw,ga,gw -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+8,0.004138902430595393,-0.006218878397578327,0.0137955538323876,gw,ga,gw -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+9,0.003545846363555991,-0.005669611314882687,0.01121092681709373,gw,ga,gw -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+10,-0.0019754803793553865,-0.009653879105630002,0.005199264040352171,gw,ga,gw -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+11,-3.4506254251810963e-4,-0.00788037832601415,0.006358520929210015,gw,ga,gw -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+12,5.270382205556808e-4,-0.005700695344733914,0.00684302101657188,gw,ga,gw -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+0,0.04229704835235064,0.032079310855451994,0.04116042311317824,gw,gw,gw -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+1,4.0176271257885514e-5,-0.006655890102138228,0.0038121148099412167,gw,gw,gw -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+2,-0.005574687066854679,-0.010617063002471644,-5.464574199213466e-4,gw,gw,gw -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+3,0.0027737625272429506,-0.0027208640191056757,0.006937863282225131,gw,gw,gw -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+4,6.201363472167076e-4,-0.005647064020705433,0.003834332465242217,gw,gw,gw -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+5,0.0017092816122880165,-0.001968052946792916,0.004768432490284353,gw,gw,gw -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+6,0.0022722612840051916,-0.0011034669604498206,0.0055986972221266,gw,gw,gw -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+7,0.0021159822271266753,-0.0013125042650506341,0.004472706903468701,gw,gw,gw -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+8,-2.2146243024934538e-5,-0.002722465498132499,0.002503449771401508,gw,gw,gw -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+9,7.106414637977074e-4,-0.0020592180497022252,0.0024794991229154283,gw,gw,gw -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+10,0.0016029143468489957,-8.954778100399567e-4,0.0029684366438868614,gw,gw,gw -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+11,0.0024932957108734386,-1.7798481331725807e-5,0.003675365121153369,gw,gw,gw -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+12,0.0014083575152470508,-6.437933348466606e-4,0.0026065767188262817,gw,gw,gw -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+0,0.04229704835235064,0.02986374809930436,0.043441378113168894,gw,gw,gw -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+1,4.0176271257885514e-5,-0.00961775306970389,0.007523160851652717,gw,gw,gw -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+2,-0.005574687066854679,-0.01373793134722508,0.002839133022595694,gw,gw,gw -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+3,0.0027737625272429506,-0.005895537162745556,0.009910849425723116,gw,gw,gw -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+4,6.201363472167076e-4,-0.008737864369790781,0.007223111680749567,gw,gw,gw -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+5,0.0017092816122880165,-0.004320857117280877,0.006776925824269064,gw,gw,gw -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+6,0.0022722612840051916,-0.0031806755105451756,0.00786818541267875,gw,gw,gw -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+7,0.0021159822271266753,-0.0029940636943458112,0.0062258903257883715,gw,gw,gw -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+8,-2.2146243024934538e-5,-0.00439356875676894,0.004571614060989911,gw,gw,gw -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+9,7.106414637977074e-4,-0.003626819961178382,0.004218071117287883,gw,gw,gw -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+10,0.0016029143468489957,-0.0023204741121508276,0.00466119087498143,gw,gw,gw -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+11,0.0024932957108734386,-0.0010576283684831061,0.0050880616790497405,gw,gw,gw -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+12,0.0014083575152470508,-0.0016435971607980187,0.003901699795761546,gw,gw,gw -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+0,0.04229704835235064,0.02815169185024657,0.045727688708807814,gw,gw,gw -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+1,4.0176271257885514e-5,-0.011538195529613493,0.00862793989917138,gw,gw,gw -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+2,-0.005574687066854679,-0.014925088091307841,0.003946432049956234,gw,gw,gw -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+3,0.0027737625272429506,-0.007239626833865061,0.011257708492988693,gw,gw,gw -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+4,6.201363472167076e-4,-0.009926090056744698,0.008092817512021887,gw,gw,gw -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+5,0.0017092816122880165,-0.005420353485342651,0.008168482880942487,gw,gw,gw -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+6,0.0022722612840051916,-0.004310220016964079,0.00918275939170733,gw,gw,gw -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+7,0.0021159822271266753,-0.00436235244468172,0.007735745916227259,gw,gw,gw -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+8,-2.2146243024934538e-5,-0.005354083283578075,0.005374281503963206,gw,gw,gw -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+9,7.106414637977074e-4,-0.004952694165849496,0.005099012853819144,gw,gw,gw -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+10,0.0016029143468489957,-0.002947550737004191,0.005574499719665254,gw,gw,gw -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+11,0.0024932957108734386,-0.0016916878533880918,0.006016430967321726,gw,gw,gw -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+12,0.0014083575152470508,-0.0022967056529360572,0.004689265456862987,gw,gw,gw -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+0,0.001506190417946902,-9.59028027264616e-6,0.0024493681771199432,gw,v,gw -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+1,6.636061405017756e-4,-0.0016775497015535975,0.002451153164031452,gw,v,gw -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+2,0.004019743822385373,4.563444766091831e-4,0.005919638156159592,gw,v,gw -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+3,0.004034521627113635,1.563356247536611e-4,0.0058564983852552165,gw,v,gw -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+4,0.0047879314904820825,5.267139286547853e-4,0.00643142704878576,gw,v,gw -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+5,0.004311236908991741,6.732907263473776e-4,0.005576007388313202,gw,v,gw -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+6,0.003680555771555262,3.96256802821629e-4,0.004524026659953109,gw,v,gw -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+7,0.00339522682975823,2.977309550725178e-4,0.004087140661324086,gw,v,gw -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+8,0.0020756537053491396,-5.118031412613636e-4,0.0026714282080994734,gw,v,gw -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+9,0.001166896614775469,-9.05327523016904e-4,0.0015946707391436832,gw,v,gw -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+10,8.751511317991009e-4,-8.147699369304214e-4,0.0012843405553011945,gw,v,gw -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+11,9.628214095191565e-4,-5.038962860540949e-4,0.001358159370025325,gw,v,gw -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+12,5.700730185577598e-4,-5.9324879718813e-4,0.0010392251991290786,gw,v,gw -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+0,0.001506190417946902,-8.61251843183607e-4,0.003489573984058532,gw,v,gw -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+1,6.636061405017756e-4,-0.0034799039033226826,0.0041726322208146295,gw,v,gw -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+2,0.004019743822385373,-0.0015813465453237549,0.008126347303986472,gw,v,gw -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+3,0.004034521627113635,-0.0018742681543452023,0.008178979785702386,gw,v,gw -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+4,0.0047879314904820825,-0.0015353732913192593,0.008554732563241862,gw,v,gw -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+5,0.004311236908991741,-9.158759054487967e-4,0.0075325726239723195,gw,v,gw -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+6,0.003680555771555262,-8.592114192372191e-4,0.00651399076041463,gw,v,gw -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+7,0.00339522682975823,-7.561052227094561e-4,0.0058675493921285776,gw,v,gw -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+8,0.0020756537053491396,-0.001243019728378235,0.004129488115175728,gw,v,gw -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+9,0.001166896614775469,-0.0016655455733386537,0.0029019850340928307,gw,v,gw -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+10,8.751511317991009e-4,-0.001565087187905295,0.002500341679177973,gw,v,gw -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+11,9.628214095191565e-4,-0.0012219119645605146,0.0024524287686504714,gw,v,gw -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+12,5.700730185577598e-4,-0.0012644560463562025,0.0021442758900493313,gw,v,gw -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+0,0.001506190417946902,-0.0012250323464143725,0.0036901928470935894,gw,v,gw -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+1,6.636061405017756e-4,-0.004297505326068649,0.005397072775107603,gw,v,gw -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+2,0.004019743822385373,-0.0032398562393807693,0.009958237394704837,gw,v,gw -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+3,0.004034521627113635,-0.0032870475058849936,0.009351286300424647,gw,v,gw -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+4,0.0047879314904820825,-0.002827621497842121,0.010927862773495037,gw,v,gw -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+5,0.004311236908991741,-0.002026788094873943,0.009126724183651548,gw,v,gw -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+6,0.003680555771555262,-0.0014701689582341181,0.007461889933875612,gw,v,gw -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+7,0.00339522682975823,-0.0013927713810135535,0.006535862138561362,gw,v,gw -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+8,0.0020756537053491396,-0.001987565993793423,0.004911866668253011,gw,v,gw -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+9,0.001166896614775469,-0.002133531196901417,0.003616312220133888,gw,v,gw -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+10,8.751511317991009e-4,-0.001977228046816764,0.003203100397954445,gw,v,gw -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+11,9.628214095191565e-4,-0.0016014535548928759,0.0030237773901940256,gw,v,gw -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+12,5.700730185577598e-4,-0.001545448738220981,0.0026818707447348483,gw,v,gw -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_gw,Shock salarial
+0,0,0,0,v,ga,v -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+1,-0.0024070094879820314,-0.006725530238117639,0.003541679090346649,v,ga,v -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+2,0.01225646565062799,0.005069574306363997,0.014634900537720234,v,ga,v -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+3,-0.0173934701567416,-0.02009813191609174,-0.008308966211773888,v,ga,v -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+4,0.008372022447991262,0.002499021685743976,0.012370382824786178,v,ga,v -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+5,9.922644156114184e-4,-0.003613265036000965,0.006565593075652253,v,ga,v -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+6,0.011833561842898112,0.004497060448637343,0.01300728019317936,v,ga,v -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+7,-0.01075481810031456,-0.012481714007798761,-0.004498987350348138,v,ga,v -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+8,0.0058624260403039,9.151636660800055e-4,0.008306247086702155,v,ga,v -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+9,-0.0040445702357602515,-0.006396317763630628,7.041659285868937e-4,v,ga,v -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+10,0.009130168139809608,0.0030025560269834797,0.009915822979194373,v,ga,v -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+11,-0.006609670273644954,-0.008370399556727562,-0.0018636791749224403,v,ga,v -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+12,0.0050415501086552884,3.962637381616759e-4,0.006567790372558868,v,ga,v -> ga,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+0,0,0,0,v,ga,v -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+1,-0.0024070094879820314,-0.010755308324572412,0.007096986743136804,v,ga,v -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+2,0.01225646565062799,0.0019035568637930172,0.018950441644814763,v,ga,v -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+3,-0.0173934701567416,-0.024792279367457495,-0.005056793718254107,v,ga,v -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+4,0.008372022447991262,-9.944627981018435e-4,0.01592342300265444,v,ga,v -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+5,9.922644156114184e-4,-0.00699126430735337,0.010736135182170047,v,ga,v -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+6,0.011833561842898112,0.0015721191874919238,0.016095256418774326,v,ga,v -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+7,-0.01075481810031456,-0.015662618555706175,-0.0021056375253091803,v,ga,v -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+8,0.0058624260403039,-0.0016983012158346537,0.011224621738232809,v,ga,v -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+9,-0.0040445702357602515,-0.008880022332063737,0.0031137060034203785,v,ga,v -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+10,0.009130168139809608,0.001158707056936758,0.012507684244469852,v,ga,v -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+11,-0.006609670273644954,-0.011045450392852221,2.646153762954556e-4,v,ga,v -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+12,0.0050415501086552884,-0.0016064106857123853,0.009018284926312639,v,ga,v -> ga,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+0,0,0,0,v,ga,v -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+1,-0.0024070094879820314,-0.014192112895399307,0.00954895726656502,v,ga,v -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+2,0.01225646565062799,4.0889197096020697e-4,0.020687130689673205,v,ga,v -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+3,-0.0173934701567416,-0.027196681729514855,-0.00200560889936044,v,ga,v -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+4,0.008372022447991262,-0.002290492436351213,0.017499657699419403,v,ga,v -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+5,9.922644156114184e-4,-0.008878857801873809,0.012636214496334475,v,ga,v -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+6,0.011833561842898112,5.75425522220394e-4,0.017601982527163513,v,ga,v -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+7,-0.01075481810031456,-0.01703317301801639,-9.255820111609405e-4,v,ga,v -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+8,0.0058624260403039,-0.0029595216631976506,0.012506552433724704,v,ga,v -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+9,-0.0040445702357602515,-0.01012154206393696,0.0048526336463404025,v,ga,v -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+10,0.009130168139809608,-1.5411589929690726e-4,0.0137343594403258,v,ga,v -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+11,-0.006609670273644954,-0.012229914389041032,0.0010484939750808099,v,ga,v -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+12,0.0050415501086552884,-0.0025625746673774794,0.010004742252092493,v,ga,v -> ga,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+0,0,0,0,v,gw,v -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+1,0.0020712598932650325,-0.003074576361520154,0.006241235013006014,v,gw,v -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+2,0.004472916572942152,-0.001121018203621039,0.007402020887144957,v,gw,v -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+3,-0.0023617365740849446,-0.006393001395936156,0.0019470638455760122,v,gw,v -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+4,0.0026257649118016655,-7.74620171955606e-4,0.004903457368204345,v,gw,v -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+5,0.0013722915594755686,-0.0015621648634592052,0.0033600663755348216,v,gw,v -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+6,0.0023692613466796174,-6.575039542700934e-4,0.004175501263673832,v,gw,v -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+7,-3.2788004805455855e-4,-0.002766596444631336,0.0017282673678884204,v,gw,v -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+8,0.004934034878632154,0.001844229740900013,0.006163333562947143,v,gw,v -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+9,0.0010203911086865962,-0.0011470694503314194,0.002125518358904102,v,gw,v -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+10,0.0014630740259544825,-7.59790352695055e-4,0.0022287342868944,v,gw,v -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+11,-0.0013012154901347521,-0.0026244397006880927,1.5808595470866851e-4,v,gw,v -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+12,0.002348495052960596,2.706692032348465e-4,0.0028405964108644565,v,gw,v -> gw,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+0,0,0,0,v,gw,v -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+1,0.0020712598932650325,-0.005809036410647538,0.009442272663371649,v,gw,v -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+2,0.004472916572942152,-0.0036479221714257187,0.010066018868585307,v,gw,v -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+3,-0.0023617365740849446,-0.00889388100162367,0.0043859654474995916,v,gw,v -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+4,0.0026257649118016655,-0.0029720655287308767,0.007024803720484368,v,gw,v -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+5,0.0013722915594755686,-0.003487042251301313,0.00520251094836788,v,gw,v -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+6,0.0023692613466796174,-0.002329628413782876,0.006129208570605624,v,gw,v -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+7,-3.2788004805455855e-4,-0.004260721328509583,0.0035004659033439074,v,gw,v -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+8,0.004934034878632154,8.017080941704667e-4,0.007680471836381583,v,gw,v -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+9,0.0010203911086865962,-0.0023148673352780345,0.0033488609067203324,v,gw,v -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+10,0.0014630740259544825,-0.0018498032336315981,0.003379917979307177,v,gw,v -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+11,-0.0013012154901347521,-0.003641102004644379,0.0011059805295195841,v,gw,v -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+12,0.002348495052960596,-3.5765554658772524e-4,0.004012140642099883,v,gw,v -> gw,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+0,0,0,0,v,gw,v -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+1,0.0020712598932650325,-0.0077986581767068505,0.011228668023943318,v,gw,v -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+2,0.004472916572942152,-0.004649517249215207,0.011358443738601696,v,gw,v -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+3,-0.0023617365740849446,-0.01048886117772966,0.005781756472114308,v,gw,v -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+4,0.0026257649118016655,-0.003580215157591323,0.007553114356089272,v,gw,v -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+5,0.0013722915594755686,-0.004193783389032292,0.005855880142376423,v,gw,v -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+6,0.0023692613466796174,-0.0031161861475648713,0.006938105011699146,v,gw,v -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+7,-3.2788004805455855e-4,-0.0050593218943790225,0.004115621079865075,v,gw,v -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+8,0.004934034878632154,9.994887346759231e-5,0.008660669596176366,v,gw,v -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+9,0.0010203911086865962,-0.002798642838115541,0.00412216569742638,v,gw,v -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+10,0.0014630740259544825,-0.002480510943511667,0.0037588802533737252,v,gw,v -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+11,-0.0013012154901347521,-0.004118916356005572,0.0016316925979508443,v,gw,v -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+12,0.002348495052960596,-7.899168914665276e-4,0.004676716846107446,v,gw,v -> gw,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+0,0.009542152467673782,0.006617526513561123,0.008836568020453687,v,v,v -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+1,0.0068357187922011035,0.0034903148899656567,0.007115883289032108,v,v,v -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+2,0.0049878625436528745,0.0016262486240779038,0.0058693720776932445,v,v,v -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+3,0.004972099426135745,0.0018503494525770234,0.005886582492984887,v,v,v -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+4,0.0055455899399777615,0.002189878058139246,0.005947596806020782,v,v,v -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+5,0.0025427840645700474,-2.9939831821483505e-4,0.002947068836421227,v,v,v -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+6,0.0015982425897157404,-9.975554021188745e-4,0.0021578321742995858,v,v,v -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+7,7.027103585867042e-4,-0.0014376469592854689,0.0014311675729614334,v,v,v -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+8,0.001495798784180987,-7.796518505675225e-4,0.001883286789492471,v,v,v -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+9,3.4474273079648245e-4,-0.0014482193042325146,9.39297844737575e-4,v,v,v -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+10,5.311431836977826e-4,-0.0010381059499727033,0.0010903950468166739,v,v,v -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+11,-1.1934601085386351e-5,-0.001139232534929702,6.876232676679349e-4,v,v,v -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+12,9.592417416369937e-4,-2.047381014220007e-4,0.0014329054211767403,v,v,v -> v,0.68,68%,ci068,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+0,0.009542152467673782,0.006060105811190173,0.009369587899885635,v,v,v -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+1,0.0068357187922011035,0.0022325072024272715,0.008855695845289696,v,v,v -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+2,0.0049878625436528745,1.0496667272687345e-4,0.007861623794217685,v,v,v -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+3,0.004972099426135745,2.178708394891433e-4,0.007836282394693875,v,v,v -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+4,0.0055455899399777615,0.0012088472076844032,0.007668280652665042,v,v,v -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+5,0.0025427840645700474,-0.0013650581218456013,0.004409314312117195,v,v,v -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+6,0.0015982425897157404,-0.0019996010501391504,0.0034932932834162026,v,v,v -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+7,7.027103585867042e-4,-0.0022444462267192204,0.00247758305425136,v,v,v -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+8,0.001495798784180987,-0.0014509291163811691,0.0030040887353818004,v,v,v -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+9,3.4474273079648245e-4,-0.0022104155315590414,0.001976366133415149,v,v,v -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+10,5.311431836977826e-4,-0.0017179758372799071,0.002023854666428322,v,v,v -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+11,-1.1934601085386351e-5,-0.001828650559307554,0.0014888862084984542,v,v,v -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+12,9.592417416369937e-4,-7.893695397779293e-4,0.0022876567156514703,v,v,v -> v,0.9,90%,ci090,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+0,0.009542152467673782,0.0057698659381276475,0.009793448166494984,v,v,v -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+1,0.0068357187922011035,0.0017243771885760728,0.009791065176337327,v,v,v -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+2,0.0049878625436528745,-8.855912777497764e-4,0.009158865001102037,v,v,v -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+3,0.004972099426135745,-1.4294253896542802e-4,0.009042165475353046,v,v,v -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+4,0.0055455899399777615,4.0623693685196176e-4,0.008529940236655171,v,v,v -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+5,0.0025427840645700474,-0.002082783997707262,0.005049045577517772,v,v,v -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+6,0.0015982425897157404,-0.002608069361524134,0.0042718210369612104,v,v,v -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+7,7.027103585867042e-4,-0.002890179513505447,0.0030778707660993098,v,v,v -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+8,0.001495798784180987,-0.0020976193096410405,0.003563608011864238,v,v,v -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+9,3.4474273079648245e-4,-0.0028791857389724655,0.0024329116294272667,v,v,v -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+10,5.311431836977826e-4,-0.0022064829396181225,0.0025597049330144213,v,v,v -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+11,-1.1934601085386351e-5,-0.0021678008147777796,0.001923348372114616,v,v,v -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral
+12,9.592417416369937e-4,-0.0010407343016931587,0.0027498575523101157,v,v,v -> v,0.95,95%,ci095,baseline_mean_winsor,w_real_mean_winsor,4,shock_v,Shock laboral

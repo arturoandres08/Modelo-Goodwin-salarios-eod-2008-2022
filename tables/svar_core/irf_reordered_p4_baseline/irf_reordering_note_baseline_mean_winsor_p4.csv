@@ -1,0 +1,2 @@
+specification,note
+baseline_mean_winsor p=4,El reordenamiento no cambia la estimación del SVAR. Solo reorganiza la presentación de las mismas IRFs por tipo de shock. Esto facilita separar el bloque de aprendizaje inducido (v -> ga) del bloque tipo Phillips (v -> gw) y deja el shock de productividad como figura complementaria.

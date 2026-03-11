@@ -1,0 +1,10 @@
+block,impulse,response,relation,first_h_sig_ci90,first_h_sig_ci95,horizons_sig_ci90,horizons_sig_ci95,any_sig_ci90,any_sig_ci95
+shock_v,v,v,v -> v,0,0,"0, 1, 2, 3, 4","0, 1, 4",TRUE,TRUE
+shock_v,v,ga,v -> ga,2,2,"2, 3, 6, 7, 10","2, 3, 6, 7",TRUE,TRUE
+shock_v,v,gw,v -> gw,8,8,8,8,TRUE,TRUE
+shock_gw,gw,v,gw -> v,NA,NA,,,FALSE,FALSE
+shock_gw,gw,ga,gw -> ga,NA,NA,,,FALSE,FALSE
+shock_gw,gw,gw,gw -> gw,0,0,0,0,TRUE,TRUE
+shock_ga,ga,v,ga -> v,0,0,"0, 1, 2","0, 1, 2",TRUE,TRUE
+shock_ga,ga,ga,ga -> ga,0,0,"0, 1, 2, 4","0, 2, 4",TRUE,TRUE
+shock_ga,ga,gw,ga -> gw,5,5,5,5,TRUE,TRUE
